@@ -1,0 +1,2 @@
+reconstruction
+-DCATKIN_DEVEL_PREFIX=/home/vishnu/Desktop/catkin_ws_adv_navi/devel -DCMAKE_INSTALL_PREFIX=/home/vishnu/Desktop/catkin_ws_adv_navi/install

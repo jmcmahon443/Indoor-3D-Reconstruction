@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "reconst")
+set(reconst_MAINTAINER "vishnu <vishnu@todo.todo>")
+set(reconst_DEPRECATED "")
+set(reconst_VERSION "0.0.0")
+set(reconst_BUILD_DEPENDS "cv_bridge" "sensor_msgs")
+set(reconst_RUN_DEPENDS "cv_bridge" "sensor_msgs")
+set(reconst_BUILDTOOL_DEPENDS "catkin")

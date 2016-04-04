@@ -1,0 +1,8 @@
+prefix=/home/vishnu/Desktop/catkin_ws_adv_navi/install
+
+Name: reconst
+Description: Description of reconst
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/vishnu/Desktop/catkin_ws_adv_navi/install/lib 
+Requires: 
