@@ -1,8 +1,0 @@
-prefix=/home/vishnu/Desktop/catkin_ws_adv_navi/install
-
-Name: reconstruction
-Description: Description of reconstruction
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/vishnu/Desktop/catkin_ws_adv_navi/install/lib 
-Requires: 
