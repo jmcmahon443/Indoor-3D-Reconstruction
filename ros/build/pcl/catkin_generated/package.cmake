@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "example_stereo_baseline")
+set(example_stereo_baseline_MAINTAINER "vishnu <vishnu@todo.todo>")
+set(example_stereo_baseline_DEPRECATED "")
+set(example_stereo_baseline_VERSION "0.0.0")
+set(example_stereo_baseline_BUILD_DEPENDS "libpcl-all-dev")
+set(example_stereo_baseline_RUN_DEPENDS "libpcl-all-dev")
+set(example_stereo_baseline_BUILDTOOL_DEPENDS "catkin")

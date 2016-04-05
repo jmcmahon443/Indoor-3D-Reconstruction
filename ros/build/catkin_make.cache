@@ -1,0 +1,2 @@
+pcl:reconstruction
+-DCATKIN_DEVEL_PREFIX=/home/joe/Documents/Indoor-3D-Reconstruction/ros/devel -DCMAKE_INSTALL_PREFIX=/home/joe/Documents/Indoor-3D-Reconstruction/ros/install -G Unix Makefiles
