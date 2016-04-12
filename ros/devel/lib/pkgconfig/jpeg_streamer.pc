@@ -1,0 +1,8 @@
+prefix=/home/joe/Documents/Indoor-3D-Reconstruction/ros/devel
+
+Name: jpeg_streamer
+Description: Description of jpeg_streamer
+Version: 0.2.4
+Cflags: 
+Libs: -L/home/joe/Documents/Indoor-3D-Reconstruction/ros/devel/lib 
+Requires: 

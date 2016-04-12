@@ -164,104 +164,6 @@ _stereo_slam_generate_messages_check_deps_GraphPoses/fast:
 .PHONY : _stereo_slam_generate_messages_check_deps_GraphPoses/fast
 
 # Convenience name for target.
-stereo_slam-indigo/CMakeFiles/bond_generate_messages_cpp.dir/rule:
-	cd /home/joe/Documents/Indoor-3D-Reconstruction/ros/build && $(MAKE) -f CMakeFiles/Makefile2 stereo_slam-indigo/CMakeFiles/bond_generate_messages_cpp.dir/rule
-.PHONY : stereo_slam-indigo/CMakeFiles/bond_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-bond_generate_messages_cpp: stereo_slam-indigo/CMakeFiles/bond_generate_messages_cpp.dir/rule
-.PHONY : bond_generate_messages_cpp
-
-# fast build rule for target.
-bond_generate_messages_cpp/fast:
-	cd /home/joe/Documents/Indoor-3D-Reconstruction/ros/build && $(MAKE) -f stereo_slam-indigo/CMakeFiles/bond_generate_messages_cpp.dir/build.make stereo_slam-indigo/CMakeFiles/bond_generate_messages_cpp.dir/build
-.PHONY : bond_generate_messages_cpp/fast
-
-# Convenience name for target.
-stereo_slam-indigo/CMakeFiles/bond_generate_messages_lisp.dir/rule:
-	cd /home/joe/Documents/Indoor-3D-Reconstruction/ros/build && $(MAKE) -f CMakeFiles/Makefile2 stereo_slam-indigo/CMakeFiles/bond_generate_messages_lisp.dir/rule
-.PHONY : stereo_slam-indigo/CMakeFiles/bond_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-bond_generate_messages_lisp: stereo_slam-indigo/CMakeFiles/bond_generate_messages_lisp.dir/rule
-.PHONY : bond_generate_messages_lisp
-
-# fast build rule for target.
-bond_generate_messages_lisp/fast:
-	cd /home/joe/Documents/Indoor-3D-Reconstruction/ros/build && $(MAKE) -f stereo_slam-indigo/CMakeFiles/bond_generate_messages_lisp.dir/build.make stereo_slam-indigo/CMakeFiles/bond_generate_messages_lisp.dir/build
-.PHONY : bond_generate_messages_lisp/fast
-
-# Convenience name for target.
-stereo_slam-indigo/CMakeFiles/bond_generate_messages_py.dir/rule:
-	cd /home/joe/Documents/Indoor-3D-Reconstruction/ros/build && $(MAKE) -f CMakeFiles/Makefile2 stereo_slam-indigo/CMakeFiles/bond_generate_messages_py.dir/rule
-.PHONY : stereo_slam-indigo/CMakeFiles/bond_generate_messages_py.dir/rule
-
-# Convenience name for target.
-bond_generate_messages_py: stereo_slam-indigo/CMakeFiles/bond_generate_messages_py.dir/rule
-.PHONY : bond_generate_messages_py
-
-# fast build rule for target.
-bond_generate_messages_py/fast:
-	cd /home/joe/Documents/Indoor-3D-Reconstruction/ros/build && $(MAKE) -f stereo_slam-indigo/CMakeFiles/bond_generate_messages_py.dir/build.make stereo_slam-indigo/CMakeFiles/bond_generate_messages_py.dir/build
-.PHONY : bond_generate_messages_py/fast
-
-# Convenience name for target.
-stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule:
-	cd /home/joe/Documents/Indoor-3D-Reconstruction/ros/build && $(MAKE) -f CMakeFiles/Makefile2 stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
-.PHONY : stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
-
-# Convenience name for target.
-dynamic_reconfigure_gencfg: stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
-.PHONY : dynamic_reconfigure_gencfg
-
-# fast build rule for target.
-dynamic_reconfigure_gencfg/fast:
-	cd /home/joe/Documents/Indoor-3D-Reconstruction/ros/build && $(MAKE) -f stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
-.PHONY : dynamic_reconfigure_gencfg/fast
-
-# Convenience name for target.
-stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule:
-	cd /home/joe/Documents/Indoor-3D-Reconstruction/ros/build && $(MAKE) -f CMakeFiles/Makefile2 stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
-.PHONY : stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-dynamic_reconfigure_generate_messages_cpp: stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
-.PHONY : dynamic_reconfigure_generate_messages_cpp
-
-# fast build rule for target.
-dynamic_reconfigure_generate_messages_cpp/fast:
-	cd /home/joe/Documents/Indoor-3D-Reconstruction/ros/build && $(MAKE) -f stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
-.PHONY : dynamic_reconfigure_generate_messages_cpp/fast
-
-# Convenience name for target.
-stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule:
-	cd /home/joe/Documents/Indoor-3D-Reconstruction/ros/build && $(MAKE) -f CMakeFiles/Makefile2 stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
-.PHONY : stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-dynamic_reconfigure_generate_messages_lisp: stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
-.PHONY : dynamic_reconfigure_generate_messages_lisp
-
-# fast build rule for target.
-dynamic_reconfigure_generate_messages_lisp/fast:
-	cd /home/joe/Documents/Indoor-3D-Reconstruction/ros/build && $(MAKE) -f stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
-.PHONY : dynamic_reconfigure_generate_messages_lisp/fast
-
-# Convenience name for target.
-stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule:
-	cd /home/joe/Documents/Indoor-3D-Reconstruction/ros/build && $(MAKE) -f CMakeFiles/Makefile2 stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
-.PHONY : stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
-
-# Convenience name for target.
-dynamic_reconfigure_generate_messages_py: stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
-.PHONY : dynamic_reconfigure_generate_messages_py
-
-# fast build rule for target.
-dynamic_reconfigure_generate_messages_py/fast:
-	cd /home/joe/Documents/Indoor-3D-Reconstruction/ros/build && $(MAKE) -f stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
-.PHONY : dynamic_reconfigure_generate_messages_py/fast
-
-# Convenience name for target.
 stereo_slam-indigo/CMakeFiles/localization.dir/rule:
 	cd /home/joe/Documents/Indoor-3D-Reconstruction/ros/build && $(MAKE) -f CMakeFiles/Makefile2 stereo_slam-indigo/CMakeFiles/localization.dir/rule
 .PHONY : stereo_slam-indigo/CMakeFiles/localization.dir/rule
@@ -316,48 +218,6 @@ nav_msgs_generate_messages_py: stereo_slam-indigo/CMakeFiles/nav_msgs_generate_m
 nav_msgs_generate_messages_py/fast:
 	cd /home/joe/Documents/Indoor-3D-Reconstruction/ros/build && $(MAKE) -f stereo_slam-indigo/CMakeFiles/nav_msgs_generate_messages_py.dir/build.make stereo_slam-indigo/CMakeFiles/nav_msgs_generate_messages_py.dir/build
 .PHONY : nav_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_cpp.dir/rule:
-	cd /home/joe/Documents/Indoor-3D-Reconstruction/ros/build && $(MAKE) -f CMakeFiles/Makefile2 stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
-.PHONY : stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-nodelet_generate_messages_cpp: stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
-.PHONY : nodelet_generate_messages_cpp
-
-# fast build rule for target.
-nodelet_generate_messages_cpp/fast:
-	cd /home/joe/Documents/Indoor-3D-Reconstruction/ros/build && $(MAKE) -f stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_cpp.dir/build.make stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_cpp.dir/build
-.PHONY : nodelet_generate_messages_cpp/fast
-
-# Convenience name for target.
-stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_lisp.dir/rule:
-	cd /home/joe/Documents/Indoor-3D-Reconstruction/ros/build && $(MAKE) -f CMakeFiles/Makefile2 stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
-.PHONY : stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-nodelet_generate_messages_lisp: stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
-.PHONY : nodelet_generate_messages_lisp
-
-# fast build rule for target.
-nodelet_generate_messages_lisp/fast:
-	cd /home/joe/Documents/Indoor-3D-Reconstruction/ros/build && $(MAKE) -f stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_lisp.dir/build
-.PHONY : nodelet_generate_messages_lisp/fast
-
-# Convenience name for target.
-stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_py.dir/rule:
-	cd /home/joe/Documents/Indoor-3D-Reconstruction/ros/build && $(MAKE) -f CMakeFiles/Makefile2 stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_py.dir/rule
-.PHONY : stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_py.dir/rule
-
-# Convenience name for target.
-nodelet_generate_messages_py: stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_py.dir/rule
-.PHONY : nodelet_generate_messages_py
-
-# fast build rule for target.
-nodelet_generate_messages_py/fast:
-	cd /home/joe/Documents/Indoor-3D-Reconstruction/ros/build && $(MAKE) -f stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_py.dir/build.make stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_py.dir/build
-.PHONY : nodelet_generate_messages_py/fast
 
 # Convenience name for target.
 stereo_slam-indigo/CMakeFiles/pcl_msgs_generate_messages_cpp.dir/rule:
@@ -772,13 +632,6 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... _stereo_slam_generate_messages_check_deps_GraphPoses"
-	@echo "... bond_generate_messages_cpp"
-	@echo "... bond_generate_messages_lisp"
-	@echo "... bond_generate_messages_py"
-	@echo "... dynamic_reconfigure_gencfg"
-	@echo "... dynamic_reconfigure_generate_messages_cpp"
-	@echo "... dynamic_reconfigure_generate_messages_lisp"
-	@echo "... dynamic_reconfigure_generate_messages_py"
 	@echo "... edit_cache"
 	@echo "... install"
 	@echo "... install/local"
@@ -788,9 +641,6 @@ help:
 	@echo "... nav_msgs_generate_messages_cpp"
 	@echo "... nav_msgs_generate_messages_lisp"
 	@echo "... nav_msgs_generate_messages_py"
-	@echo "... nodelet_generate_messages_cpp"
-	@echo "... nodelet_generate_messages_lisp"
-	@echo "... nodelet_generate_messages_py"
 	@echo "... pcl_msgs_generate_messages_cpp"
 	@echo "... pcl_msgs_generate_messages_lisp"
 	@echo "... pcl_msgs_generate_messages_py"

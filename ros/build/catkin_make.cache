@@ -1,2 +1,2 @@
-libhaloc:reconstruction:stereo_slam-indigo:viso2/libviso2:viso2/viso2:viso2/viso2_ros
+camera_umd/camera_umd:camera_umd/jpeg_streamer:camera_umd/uvc_camera:libhaloc:libuvc_ros/libuvc_camera:libuvc_ros/libuvc_ros:reconstruction:stereo_slam-indigo:viso2/libviso2:viso2/viso2:viso2/viso2_ros
 -DCATKIN_DEVEL_PREFIX=/home/joe/Documents/Indoor-3D-Reconstruction/ros/devel -DCMAKE_INSTALL_PREFIX=/home/joe/Documents/Indoor-3D-Reconstruction/ros/install -G Unix Makefiles

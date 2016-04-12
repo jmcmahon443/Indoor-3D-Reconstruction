@@ -150,20 +150,6 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-viso2/libviso2/CMakeFiles/_catkin_empty_exported_target.dir/rule:
-	cd /home/joe/Documents/Indoor-3D-Reconstruction/ros/build && $(MAKE) -f CMakeFiles/Makefile2 viso2/libviso2/CMakeFiles/_catkin_empty_exported_target.dir/rule
-.PHONY : viso2/libviso2/CMakeFiles/_catkin_empty_exported_target.dir/rule
-
-# Convenience name for target.
-_catkin_empty_exported_target: viso2/libviso2/CMakeFiles/_catkin_empty_exported_target.dir/rule
-.PHONY : _catkin_empty_exported_target
-
-# fast build rule for target.
-_catkin_empty_exported_target/fast:
-	cd /home/joe/Documents/Indoor-3D-Reconstruction/ros/build && $(MAKE) -f viso2/libviso2/CMakeFiles/_catkin_empty_exported_target.dir/build.make viso2/libviso2/CMakeFiles/_catkin_empty_exported_target.dir/build
-.PHONY : _catkin_empty_exported_target/fast
-
-# Convenience name for target.
 viso2/libviso2/CMakeFiles/viso2.dir/rule:
 	cd /home/joe/Documents/Indoor-3D-Reconstruction/ros/build && $(MAKE) -f CMakeFiles/Makefile2 viso2/libviso2/CMakeFiles/viso2.dir/rule
 .PHONY : viso2/libviso2/CMakeFiles/viso2.dir/rule
@@ -375,7 +361,6 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... _catkin_empty_exported_target"
 	@echo "... edit_cache"
 	@echo "... install"
 	@echo "... install/local"

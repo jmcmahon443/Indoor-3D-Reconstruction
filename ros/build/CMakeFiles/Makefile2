@@ -261,7 +261,7 @@ gtest/preinstall:
 gtest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles  3
 	@echo "Built target gtest"
 .PHONY : gtest/CMakeFiles/gtest.dir/all
 
@@ -292,7 +292,7 @@ clean: gtest/CMakeFiles/gtest.dir/clean
 gtest/CMakeFiles/gtest_main.dir/all: gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles  2
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles  4
 	@echo "Built target gtest_main"
 .PHONY : gtest/CMakeFiles/gtest_main.dir/all
 
@@ -317,6 +317,67 @@ clean: gtest/CMakeFiles/gtest_main.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory camera_umd/camera_umd
+
+# Convenience name for "all" pass in the directory.
+camera_umd/camera_umd/all:
+.PHONY : camera_umd/camera_umd/all
+
+# Convenience name for "clean" pass in the directory.
+camera_umd/camera_umd/clean: camera_umd/camera_umd/CMakeFiles/_catkin_empty_exported_target.dir/clean
+.PHONY : camera_umd/camera_umd/clean
+
+# Convenience name for "preinstall" pass in the directory.
+camera_umd/camera_umd/preinstall:
+.PHONY : camera_umd/camera_umd/preinstall
+
+#=============================================================================
+# Target rules for target camera_umd/camera_umd/CMakeFiles/_catkin_empty_exported_target.dir
+
+# All Build rule for target.
+camera_umd/camera_umd/CMakeFiles/_catkin_empty_exported_target.dir/all:
+	$(MAKE) -f camera_umd/camera_umd/CMakeFiles/_catkin_empty_exported_target.dir/build.make camera_umd/camera_umd/CMakeFiles/_catkin_empty_exported_target.dir/depend
+	$(MAKE) -f camera_umd/camera_umd/CMakeFiles/_catkin_empty_exported_target.dir/build.make camera_umd/camera_umd/CMakeFiles/_catkin_empty_exported_target.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
+	@echo "Built target _catkin_empty_exported_target"
+.PHONY : camera_umd/camera_umd/CMakeFiles/_catkin_empty_exported_target.dir/all
+
+# Build rule for subdir invocation for target.
+camera_umd/camera_umd/CMakeFiles/_catkin_empty_exported_target.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 camera_umd/camera_umd/CMakeFiles/_catkin_empty_exported_target.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+.PHONY : camera_umd/camera_umd/CMakeFiles/_catkin_empty_exported_target.dir/rule
+
+# Convenience name for target.
+_catkin_empty_exported_target: camera_umd/camera_umd/CMakeFiles/_catkin_empty_exported_target.dir/rule
+.PHONY : _catkin_empty_exported_target
+
+# clean rule for target.
+camera_umd/camera_umd/CMakeFiles/_catkin_empty_exported_target.dir/clean:
+	$(MAKE) -f camera_umd/camera_umd/CMakeFiles/_catkin_empty_exported_target.dir/build.make camera_umd/camera_umd/CMakeFiles/_catkin_empty_exported_target.dir/clean
+.PHONY : camera_umd/camera_umd/CMakeFiles/_catkin_empty_exported_target.dir/clean
+
+# clean rule for target.
+clean: camera_umd/camera_umd/CMakeFiles/_catkin_empty_exported_target.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory libuvc_ros/libuvc_ros
+
+# Convenience name for "all" pass in the directory.
+libuvc_ros/libuvc_ros/all:
+.PHONY : libuvc_ros/libuvc_ros/all
+
+# Convenience name for "clean" pass in the directory.
+libuvc_ros/libuvc_ros/clean:
+.PHONY : libuvc_ros/libuvc_ros/clean
+
+# Convenience name for "preinstall" pass in the directory.
+libuvc_ros/libuvc_ros/preinstall:
+.PHONY : libuvc_ros/libuvc_ros/preinstall
+
+#=============================================================================
 # Directory level rules for directory viso2/libviso2
 
 # Convenience name for "all" pass in the directory.
@@ -324,7 +385,6 @@ viso2/libviso2/all: viso2/libviso2/CMakeFiles/viso2.dir/all
 .PHONY : viso2/libviso2/all
 
 # Convenience name for "clean" pass in the directory.
-viso2/libviso2/clean: viso2/libviso2/CMakeFiles/_catkin_empty_exported_target.dir/clean
 viso2/libviso2/clean: viso2/libviso2/CMakeFiles/viso2.dir/clean
 .PHONY : viso2/libviso2/clean
 
@@ -333,44 +393,13 @@ viso2/libviso2/preinstall:
 .PHONY : viso2/libviso2/preinstall
 
 #=============================================================================
-# Target rules for target viso2/libviso2/CMakeFiles/_catkin_empty_exported_target.dir
-
-# All Build rule for target.
-viso2/libviso2/CMakeFiles/_catkin_empty_exported_target.dir/all:
-	$(MAKE) -f viso2/libviso2/CMakeFiles/_catkin_empty_exported_target.dir/build.make viso2/libviso2/CMakeFiles/_catkin_empty_exported_target.dir/depend
-	$(MAKE) -f viso2/libviso2/CMakeFiles/_catkin_empty_exported_target.dir/build.make viso2/libviso2/CMakeFiles/_catkin_empty_exported_target.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
-	@echo "Built target _catkin_empty_exported_target"
-.PHONY : viso2/libviso2/CMakeFiles/_catkin_empty_exported_target.dir/all
-
-# Build rule for subdir invocation for target.
-viso2/libviso2/CMakeFiles/_catkin_empty_exported_target.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 viso2/libviso2/CMakeFiles/_catkin_empty_exported_target.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-.PHONY : viso2/libviso2/CMakeFiles/_catkin_empty_exported_target.dir/rule
-
-# Convenience name for target.
-_catkin_empty_exported_target: viso2/libviso2/CMakeFiles/_catkin_empty_exported_target.dir/rule
-.PHONY : _catkin_empty_exported_target
-
-# clean rule for target.
-viso2/libviso2/CMakeFiles/_catkin_empty_exported_target.dir/clean:
-	$(MAKE) -f viso2/libviso2/CMakeFiles/_catkin_empty_exported_target.dir/build.make viso2/libviso2/CMakeFiles/_catkin_empty_exported_target.dir/clean
-.PHONY : viso2/libviso2/CMakeFiles/_catkin_empty_exported_target.dir/clean
-
-# clean rule for target.
-clean: viso2/libviso2/CMakeFiles/_catkin_empty_exported_target.dir/clean
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target viso2/libviso2/CMakeFiles/viso2.dir
 
 # All Build rule for target.
 viso2/libviso2/CMakeFiles/viso2.dir/all:
 	$(MAKE) -f viso2/libviso2/CMakeFiles/viso2.dir/build.make viso2/libviso2/CMakeFiles/viso2.dir/depend
 	$(MAKE) -f viso2/libviso2/CMakeFiles/viso2.dir/build.make viso2/libviso2/CMakeFiles/viso2.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles  21 22 23 24 25 26 27 28
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles  38 39 40 41 42 43 44 45
 	@echo "Built target viso2"
 .PHONY : viso2/libviso2/CMakeFiles/viso2.dir/all
 
@@ -414,6 +443,536 @@ viso2/viso2/preinstall:
 .PHONY : viso2/viso2/preinstall
 
 #=============================================================================
+# Directory level rules for directory camera_umd/jpeg_streamer
+
+# Convenience name for "all" pass in the directory.
+camera_umd/jpeg_streamer/all: camera_umd/jpeg_streamer/CMakeFiles/jpeg_streamer.dir/all
+.PHONY : camera_umd/jpeg_streamer/all
+
+# Convenience name for "clean" pass in the directory.
+camera_umd/jpeg_streamer/clean: camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+camera_umd/jpeg_streamer/clean: camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+camera_umd/jpeg_streamer/clean: camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+camera_umd/jpeg_streamer/clean: camera_umd/jpeg_streamer/CMakeFiles/jpeg_streamer.dir/clean
+camera_umd/jpeg_streamer/clean: camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+camera_umd/jpeg_streamer/clean: camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+camera_umd/jpeg_streamer/clean: camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_py.dir/clean
+camera_umd/jpeg_streamer/clean: camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+camera_umd/jpeg_streamer/clean: camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+camera_umd/jpeg_streamer/clean: camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+camera_umd/jpeg_streamer/clean: camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
+camera_umd/jpeg_streamer/clean: camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
+camera_umd/jpeg_streamer/clean: camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
+camera_umd/jpeg_streamer/clean: camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+camera_umd/jpeg_streamer/clean: camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+camera_umd/jpeg_streamer/clean: camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+.PHONY : camera_umd/jpeg_streamer/clean
+
+# Convenience name for "preinstall" pass in the directory.
+camera_umd/jpeg_streamer/preinstall:
+.PHONY : camera_umd/jpeg_streamer/preinstall
+
+#=============================================================================
+# Target rules for target camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_cpp.dir
+
+# All Build rule for target.
+camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
+	@echo "Built target geometry_msgs_generate_messages_cpp"
+.PHONY : camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+.PHONY : camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_cpp: camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+.PHONY : geometry_msgs_generate_messages_cpp
+
+# clean rule for target.
+camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+.PHONY : camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_lisp.dir
+
+# All Build rule for target.
+camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
+	@echo "Built target geometry_msgs_generate_messages_lisp"
+.PHONY : camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+.PHONY : camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_lisp: camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+.PHONY : geometry_msgs_generate_messages_lisp
+
+# clean rule for target.
+camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+.PHONY : camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_py.dir
+
+# All Build rule for target.
+camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
+	@echo "Built target geometry_msgs_generate_messages_py"
+.PHONY : camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+.PHONY : camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_py: camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+.PHONY : geometry_msgs_generate_messages_py
+
+# clean rule for target.
+camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+.PHONY : camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target camera_umd/jpeg_streamer/CMakeFiles/jpeg_streamer.dir
+
+# All Build rule for target.
+camera_umd/jpeg_streamer/CMakeFiles/jpeg_streamer.dir/all:
+	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/jpeg_streamer.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/jpeg_streamer.dir/depend
+	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/jpeg_streamer.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/jpeg_streamer.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles  8 9
+	@echo "Built target jpeg_streamer"
+.PHONY : camera_umd/jpeg_streamer/CMakeFiles/jpeg_streamer.dir/all
+
+# Include target in all.
+all: camera_umd/jpeg_streamer/CMakeFiles/jpeg_streamer.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+camera_umd/jpeg_streamer/CMakeFiles/jpeg_streamer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 camera_umd/jpeg_streamer/CMakeFiles/jpeg_streamer.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+.PHONY : camera_umd/jpeg_streamer/CMakeFiles/jpeg_streamer.dir/rule
+
+# Convenience name for target.
+jpeg_streamer: camera_umd/jpeg_streamer/CMakeFiles/jpeg_streamer.dir/rule
+.PHONY : jpeg_streamer
+
+# clean rule for target.
+camera_umd/jpeg_streamer/CMakeFiles/jpeg_streamer.dir/clean:
+	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/jpeg_streamer.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/jpeg_streamer.dir/clean
+.PHONY : camera_umd/jpeg_streamer/CMakeFiles/jpeg_streamer.dir/clean
+
+# clean rule for target.
+clean: camera_umd/jpeg_streamer/CMakeFiles/jpeg_streamer.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_cpp.dir
+
+# All Build rule for target.
+camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_cpp.dir/all:
+	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_cpp.dir/depend
+	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
+	@echo "Built target roscpp_generate_messages_cpp"
+.PHONY : camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+.PHONY : camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_cpp: camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+.PHONY : roscpp_generate_messages_cpp
+
+# clean rule for target.
+camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_cpp.dir/clean:
+	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+.PHONY : camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_lisp.dir
+
+# All Build rule for target.
+camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_lisp.dir/all:
+	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_lisp.dir/depend
+	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
+	@echo "Built target roscpp_generate_messages_lisp"
+.PHONY : camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+.PHONY : camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_lisp: camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+.PHONY : roscpp_generate_messages_lisp
+
+# clean rule for target.
+camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_lisp.dir/clean:
+	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+.PHONY : camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_py.dir
+
+# All Build rule for target.
+camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_py.dir/all:
+	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_py.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_py.dir/depend
+	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_py.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_py.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
+	@echo "Built target roscpp_generate_messages_py"
+.PHONY : camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+.PHONY : camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_py.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_py: camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_py.dir/rule
+.PHONY : roscpp_generate_messages_py
+
+# clean rule for target.
+camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_py.dir/clean:
+	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_py.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_py.dir/clean
+.PHONY : camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_py.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir
+
+# All Build rule for target.
+camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
+	@echo "Built target rosgraph_msgs_generate_messages_cpp"
+.PHONY : camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+.PHONY : camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_cpp: camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+.PHONY : rosgraph_msgs_generate_messages_cpp
+
+# clean rule for target.
+camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+.PHONY : camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir
+
+# All Build rule for target.
+camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
+	@echo "Built target rosgraph_msgs_generate_messages_lisp"
+.PHONY : camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+.PHONY : camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_lisp: camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+.PHONY : rosgraph_msgs_generate_messages_lisp
+
+# clean rule for target.
+camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+.PHONY : camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_py.dir
+
+# All Build rule for target.
+camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
+	@echo "Built target rosgraph_msgs_generate_messages_py"
+.PHONY : camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+.PHONY : camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_py: camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+.PHONY : rosgraph_msgs_generate_messages_py
+
+# clean rule for target.
+camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+.PHONY : camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_cpp.dir
+
+# All Build rule for target.
+camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
+	@echo "Built target sensor_msgs_generate_messages_cpp"
+.PHONY : camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+.PHONY : camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+sensor_msgs_generate_messages_cpp: camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
+.PHONY : sensor_msgs_generate_messages_cpp
+
+# clean rule for target.
+camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
+.PHONY : camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_lisp.dir
+
+# All Build rule for target.
+camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
+	@echo "Built target sensor_msgs_generate_messages_lisp"
+.PHONY : camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+.PHONY : camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+sensor_msgs_generate_messages_lisp: camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
+.PHONY : sensor_msgs_generate_messages_lisp
+
+# clean rule for target.
+camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
+.PHONY : camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_py.dir
+
+# All Build rule for target.
+camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
+	@echo "Built target sensor_msgs_generate_messages_py"
+.PHONY : camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+.PHONY : camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+sensor_msgs_generate_messages_py: camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+.PHONY : sensor_msgs_generate_messages_py
+
+# clean rule for target.
+camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
+.PHONY : camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_cpp.dir
+
+# All Build rule for target.
+camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
+	@echo "Built target std_msgs_generate_messages_cpp"
+.PHONY : camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+.PHONY : camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_cpp: camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+.PHONY : std_msgs_generate_messages_cpp
+
+# clean rule for target.
+camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+.PHONY : camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_lisp.dir
+
+# All Build rule for target.
+camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
+	@echo "Built target std_msgs_generate_messages_lisp"
+.PHONY : camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+.PHONY : camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_lisp: camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+.PHONY : std_msgs_generate_messages_lisp
+
+# clean rule for target.
+camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+.PHONY : camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_py.dir
+
+# All Build rule for target.
+camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_py.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_py.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_py.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
+	@echo "Built target std_msgs_generate_messages_py"
+.PHONY : camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+.PHONY : camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_py: camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+.PHONY : std_msgs_generate_messages_py
+
+# clean rule for target.
+camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_py.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+.PHONY : camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+.PHONY : clean
+
+#=============================================================================
 # Directory level rules for directory reconstruction
 
 # Convenience name for "all" pass in the directory.
@@ -422,22 +981,7 @@ reconstruction/all: reconstruction/CMakeFiles/sub_1.dir/all
 .PHONY : reconstruction/all
 
 # Convenience name for "clean" pass in the directory.
-reconstruction/clean: reconstruction/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
-reconstruction/clean: reconstruction/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
-reconstruction/clean: reconstruction/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
 reconstruction/clean: reconstruction/CMakeFiles/pub_1.dir/clean
-reconstruction/clean: reconstruction/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
-reconstruction/clean: reconstruction/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
-reconstruction/clean: reconstruction/CMakeFiles/roscpp_generate_messages_py.dir/clean
-reconstruction/clean: reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
-reconstruction/clean: reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
-reconstruction/clean: reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
-reconstruction/clean: reconstruction/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
-reconstruction/clean: reconstruction/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
-reconstruction/clean: reconstruction/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
-reconstruction/clean: reconstruction/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
-reconstruction/clean: reconstruction/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
-reconstruction/clean: reconstruction/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 reconstruction/clean: reconstruction/CMakeFiles/sub_1.dir/clean
 .PHONY : reconstruction/clean
 
@@ -446,106 +990,13 @@ reconstruction/preinstall:
 .PHONY : reconstruction/preinstall
 
 #=============================================================================
-# Target rules for target reconstruction/CMakeFiles/geometry_msgs_generate_messages_cpp.dir
-
-# All Build rule for target.
-reconstruction/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f reconstruction/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make reconstruction/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f reconstruction/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make reconstruction/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
-	@echo "Built target geometry_msgs_generate_messages_cpp"
-.PHONY : reconstruction/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-
-# Build rule for subdir invocation for target.
-reconstruction/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 reconstruction/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-.PHONY : reconstruction/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_cpp: reconstruction/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-.PHONY : geometry_msgs_generate_messages_cpp
-
-# clean rule for target.
-reconstruction/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f reconstruction/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make reconstruction/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
-.PHONY : reconstruction/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
-
-# clean rule for target.
-clean: reconstruction/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target reconstruction/CMakeFiles/geometry_msgs_generate_messages_lisp.dir
-
-# All Build rule for target.
-reconstruction/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f reconstruction/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make reconstruction/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f reconstruction/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make reconstruction/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
-	@echo "Built target geometry_msgs_generate_messages_lisp"
-.PHONY : reconstruction/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-
-# Build rule for subdir invocation for target.
-reconstruction/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 reconstruction/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-.PHONY : reconstruction/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_lisp: reconstruction/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-.PHONY : geometry_msgs_generate_messages_lisp
-
-# clean rule for target.
-reconstruction/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f reconstruction/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make reconstruction/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
-.PHONY : reconstruction/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
-
-# clean rule for target.
-clean: reconstruction/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target reconstruction/CMakeFiles/geometry_msgs_generate_messages_py.dir
-
-# All Build rule for target.
-reconstruction/CMakeFiles/geometry_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f reconstruction/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make reconstruction/CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f reconstruction/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make reconstruction/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
-	@echo "Built target geometry_msgs_generate_messages_py"
-.PHONY : reconstruction/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-
-# Build rule for subdir invocation for target.
-reconstruction/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 reconstruction/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-.PHONY : reconstruction/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_py: reconstruction/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-.PHONY : geometry_msgs_generate_messages_py
-
-# clean rule for target.
-reconstruction/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f reconstruction/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make reconstruction/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
-.PHONY : reconstruction/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
-
-# clean rule for target.
-clean: reconstruction/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target reconstruction/CMakeFiles/pub_1.dir
 
 # All Build rule for target.
 reconstruction/CMakeFiles/pub_1.dir/all:
 	$(MAKE) -f reconstruction/CMakeFiles/pub_1.dir/build.make reconstruction/CMakeFiles/pub_1.dir/depend
 	$(MAKE) -f reconstruction/CMakeFiles/pub_1.dir/build.make reconstruction/CMakeFiles/pub_1.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles  14
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles  25
 	@echo "Built target pub_1"
 .PHONY : reconstruction/CMakeFiles/pub_1.dir/all
 
@@ -574,385 +1025,13 @@ clean: reconstruction/CMakeFiles/pub_1.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target reconstruction/CMakeFiles/roscpp_generate_messages_cpp.dir
-
-# All Build rule for target.
-reconstruction/CMakeFiles/roscpp_generate_messages_cpp.dir/all:
-	$(MAKE) -f reconstruction/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make reconstruction/CMakeFiles/roscpp_generate_messages_cpp.dir/depend
-	$(MAKE) -f reconstruction/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make reconstruction/CMakeFiles/roscpp_generate_messages_cpp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
-	@echo "Built target roscpp_generate_messages_cpp"
-.PHONY : reconstruction/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-
-# Build rule for subdir invocation for target.
-reconstruction/CMakeFiles/roscpp_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 reconstruction/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-.PHONY : reconstruction/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_cpp: reconstruction/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-.PHONY : roscpp_generate_messages_cpp
-
-# clean rule for target.
-reconstruction/CMakeFiles/roscpp_generate_messages_cpp.dir/clean:
-	$(MAKE) -f reconstruction/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make reconstruction/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
-.PHONY : reconstruction/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
-
-# clean rule for target.
-clean: reconstruction/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target reconstruction/CMakeFiles/roscpp_generate_messages_lisp.dir
-
-# All Build rule for target.
-reconstruction/CMakeFiles/roscpp_generate_messages_lisp.dir/all:
-	$(MAKE) -f reconstruction/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make reconstruction/CMakeFiles/roscpp_generate_messages_lisp.dir/depend
-	$(MAKE) -f reconstruction/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make reconstruction/CMakeFiles/roscpp_generate_messages_lisp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
-	@echo "Built target roscpp_generate_messages_lisp"
-.PHONY : reconstruction/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-
-# Build rule for subdir invocation for target.
-reconstruction/CMakeFiles/roscpp_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 reconstruction/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-.PHONY : reconstruction/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_lisp: reconstruction/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-.PHONY : roscpp_generate_messages_lisp
-
-# clean rule for target.
-reconstruction/CMakeFiles/roscpp_generate_messages_lisp.dir/clean:
-	$(MAKE) -f reconstruction/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make reconstruction/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
-.PHONY : reconstruction/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
-
-# clean rule for target.
-clean: reconstruction/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target reconstruction/CMakeFiles/roscpp_generate_messages_py.dir
-
-# All Build rule for target.
-reconstruction/CMakeFiles/roscpp_generate_messages_py.dir/all:
-	$(MAKE) -f reconstruction/CMakeFiles/roscpp_generate_messages_py.dir/build.make reconstruction/CMakeFiles/roscpp_generate_messages_py.dir/depend
-	$(MAKE) -f reconstruction/CMakeFiles/roscpp_generate_messages_py.dir/build.make reconstruction/CMakeFiles/roscpp_generate_messages_py.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
-	@echo "Built target roscpp_generate_messages_py"
-.PHONY : reconstruction/CMakeFiles/roscpp_generate_messages_py.dir/all
-
-# Build rule for subdir invocation for target.
-reconstruction/CMakeFiles/roscpp_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 reconstruction/CMakeFiles/roscpp_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-.PHONY : reconstruction/CMakeFiles/roscpp_generate_messages_py.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_py: reconstruction/CMakeFiles/roscpp_generate_messages_py.dir/rule
-.PHONY : roscpp_generate_messages_py
-
-# clean rule for target.
-reconstruction/CMakeFiles/roscpp_generate_messages_py.dir/clean:
-	$(MAKE) -f reconstruction/CMakeFiles/roscpp_generate_messages_py.dir/build.make reconstruction/CMakeFiles/roscpp_generate_messages_py.dir/clean
-.PHONY : reconstruction/CMakeFiles/roscpp_generate_messages_py.dir/clean
-
-# clean rule for target.
-clean: reconstruction/CMakeFiles/roscpp_generate_messages_py.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir
-
-# All Build rule for target.
-reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
-	@echo "Built target rosgraph_msgs_generate_messages_cpp"
-.PHONY : reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-
-# Build rule for subdir invocation for target.
-reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-.PHONY : reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_cpp: reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-.PHONY : rosgraph_msgs_generate_messages_cpp
-
-# clean rule for target.
-reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
-.PHONY : reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
-
-# clean rule for target.
-clean: reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir
-
-# All Build rule for target.
-reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
-	@echo "Built target rosgraph_msgs_generate_messages_lisp"
-.PHONY : reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-
-# Build rule for subdir invocation for target.
-reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-.PHONY : reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_lisp: reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-.PHONY : rosgraph_msgs_generate_messages_lisp
-
-# clean rule for target.
-reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
-.PHONY : reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
-
-# clean rule for target.
-clean: reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_py.dir
-
-# All Build rule for target.
-reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
-	@echo "Built target rosgraph_msgs_generate_messages_py"
-.PHONY : reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-
-# Build rule for subdir invocation for target.
-reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-.PHONY : reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_py: reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-.PHONY : rosgraph_msgs_generate_messages_py
-
-# clean rule for target.
-reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
-.PHONY : reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
-
-# clean rule for target.
-clean: reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target reconstruction/CMakeFiles/sensor_msgs_generate_messages_cpp.dir
-
-# All Build rule for target.
-reconstruction/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f reconstruction/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make reconstruction/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f reconstruction/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make reconstruction/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
-	@echo "Built target sensor_msgs_generate_messages_cpp"
-.PHONY : reconstruction/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-
-# Build rule for subdir invocation for target.
-reconstruction/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 reconstruction/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-.PHONY : reconstruction/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_cpp: reconstruction/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-.PHONY : sensor_msgs_generate_messages_cpp
-
-# clean rule for target.
-reconstruction/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f reconstruction/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make reconstruction/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
-.PHONY : reconstruction/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
-
-# clean rule for target.
-clean: reconstruction/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target reconstruction/CMakeFiles/sensor_msgs_generate_messages_lisp.dir
-
-# All Build rule for target.
-reconstruction/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f reconstruction/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make reconstruction/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f reconstruction/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make reconstruction/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
-	@echo "Built target sensor_msgs_generate_messages_lisp"
-.PHONY : reconstruction/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
-
-# Build rule for subdir invocation for target.
-reconstruction/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 reconstruction/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-.PHONY : reconstruction/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_lisp: reconstruction/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
-.PHONY : sensor_msgs_generate_messages_lisp
-
-# clean rule for target.
-reconstruction/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f reconstruction/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make reconstruction/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
-.PHONY : reconstruction/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
-
-# clean rule for target.
-clean: reconstruction/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target reconstruction/CMakeFiles/sensor_msgs_generate_messages_py.dir
-
-# All Build rule for target.
-reconstruction/CMakeFiles/sensor_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f reconstruction/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make reconstruction/CMakeFiles/sensor_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f reconstruction/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make reconstruction/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
-	@echo "Built target sensor_msgs_generate_messages_py"
-.PHONY : reconstruction/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
-
-# Build rule for subdir invocation for target.
-reconstruction/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 reconstruction/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-.PHONY : reconstruction/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_py: reconstruction/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
-.PHONY : sensor_msgs_generate_messages_py
-
-# clean rule for target.
-reconstruction/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f reconstruction/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make reconstruction/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
-.PHONY : reconstruction/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
-
-# clean rule for target.
-clean: reconstruction/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target reconstruction/CMakeFiles/std_msgs_generate_messages_cpp.dir
-
-# All Build rule for target.
-reconstruction/CMakeFiles/std_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f reconstruction/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make reconstruction/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f reconstruction/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make reconstruction/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
-	@echo "Built target std_msgs_generate_messages_cpp"
-.PHONY : reconstruction/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-
-# Build rule for subdir invocation for target.
-reconstruction/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 reconstruction/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-.PHONY : reconstruction/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_cpp: reconstruction/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-.PHONY : std_msgs_generate_messages_cpp
-
-# clean rule for target.
-reconstruction/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f reconstruction/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make reconstruction/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
-.PHONY : reconstruction/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
-
-# clean rule for target.
-clean: reconstruction/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target reconstruction/CMakeFiles/std_msgs_generate_messages_lisp.dir
-
-# All Build rule for target.
-reconstruction/CMakeFiles/std_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f reconstruction/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make reconstruction/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f reconstruction/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make reconstruction/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
-	@echo "Built target std_msgs_generate_messages_lisp"
-.PHONY : reconstruction/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-
-# Build rule for subdir invocation for target.
-reconstruction/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 reconstruction/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-.PHONY : reconstruction/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_lisp: reconstruction/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-.PHONY : std_msgs_generate_messages_lisp
-
-# clean rule for target.
-reconstruction/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f reconstruction/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make reconstruction/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
-.PHONY : reconstruction/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
-
-# clean rule for target.
-clean: reconstruction/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target reconstruction/CMakeFiles/std_msgs_generate_messages_py.dir
-
-# All Build rule for target.
-reconstruction/CMakeFiles/std_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f reconstruction/CMakeFiles/std_msgs_generate_messages_py.dir/build.make reconstruction/CMakeFiles/std_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f reconstruction/CMakeFiles/std_msgs_generate_messages_py.dir/build.make reconstruction/CMakeFiles/std_msgs_generate_messages_py.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
-	@echo "Built target std_msgs_generate_messages_py"
-.PHONY : reconstruction/CMakeFiles/std_msgs_generate_messages_py.dir/all
-
-# Build rule for subdir invocation for target.
-reconstruction/CMakeFiles/std_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 reconstruction/CMakeFiles/std_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-.PHONY : reconstruction/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_py: reconstruction/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-.PHONY : std_msgs_generate_messages_py
-
-# clean rule for target.
-reconstruction/CMakeFiles/std_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f reconstruction/CMakeFiles/std_msgs_generate_messages_py.dir/build.make reconstruction/CMakeFiles/std_msgs_generate_messages_py.dir/clean
-.PHONY : reconstruction/CMakeFiles/std_msgs_generate_messages_py.dir/clean
-
-# clean rule for target.
-clean: reconstruction/CMakeFiles/std_msgs_generate_messages_py.dir/clean
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target reconstruction/CMakeFiles/sub_1.dir
 
 # All Build rule for target.
 reconstruction/CMakeFiles/sub_1.dir/all:
 	$(MAKE) -f reconstruction/CMakeFiles/sub_1.dir/build.make reconstruction/CMakeFiles/sub_1.dir/depend
 	$(MAKE) -f reconstruction/CMakeFiles/sub_1.dir/build.make reconstruction/CMakeFiles/sub_1.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles  20
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles  31
 	@echo "Built target sub_1"
 .PHONY : reconstruction/CMakeFiles/sub_1.dir/all
 
@@ -978,6 +1057,450 @@ reconstruction/CMakeFiles/sub_1.dir/clean:
 
 # clean rule for target.
 clean: reconstruction/CMakeFiles/sub_1.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory libuvc_ros/libuvc_camera
+
+# Convenience name for "all" pass in the directory.
+libuvc_ros/libuvc_camera/all: libuvc_ros/libuvc_camera/CMakeFiles/camera_node.dir/all
+libuvc_ros/libuvc_camera/all: libuvc_ros/libuvc_camera/CMakeFiles/libuvc_camera_gencfg.dir/all
+libuvc_ros/libuvc_camera/all: libuvc_ros/libuvc_camera/CMakeFiles/libuvc_camera_nodelet.dir/all
+.PHONY : libuvc_ros/libuvc_camera/all
+
+# Convenience name for "clean" pass in the directory.
+libuvc_ros/libuvc_camera/clean: libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_cpp.dir/clean
+libuvc_ros/libuvc_camera/clean: libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_lisp.dir/clean
+libuvc_ros/libuvc_camera/clean: libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_py.dir/clean
+libuvc_ros/libuvc_camera/clean: libuvc_ros/libuvc_camera/CMakeFiles/camera_node.dir/clean
+libuvc_ros/libuvc_camera/clean: libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_gencfg.dir/clean
+libuvc_ros/libuvc_camera/clean: libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/clean
+libuvc_ros/libuvc_camera/clean: libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/clean
+libuvc_ros/libuvc_camera/clean: libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/clean
+libuvc_ros/libuvc_camera/clean: libuvc_ros/libuvc_camera/CMakeFiles/libuvc_camera_gencfg.dir/clean
+libuvc_ros/libuvc_camera/clean: libuvc_ros/libuvc_camera/CMakeFiles/libuvc_camera_nodelet.dir/clean
+libuvc_ros/libuvc_camera/clean: libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/clean
+libuvc_ros/libuvc_camera/clean: libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/clean
+libuvc_ros/libuvc_camera/clean: libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_py.dir/clean
+.PHONY : libuvc_ros/libuvc_camera/clean
+
+# Convenience name for "preinstall" pass in the directory.
+libuvc_ros/libuvc_camera/preinstall:
+.PHONY : libuvc_ros/libuvc_camera/preinstall
+
+#=============================================================================
+# Target rules for target libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_cpp.dir
+
+# All Build rule for target.
+libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_cpp.dir/all:
+	$(MAKE) -f libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_cpp.dir/build.make libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_cpp.dir/depend
+	$(MAKE) -f libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_cpp.dir/build.make libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_cpp.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
+	@echo "Built target bond_generate_messages_cpp"
+.PHONY : libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+.PHONY : libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+bond_generate_messages_cpp: libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_cpp.dir/rule
+.PHONY : bond_generate_messages_cpp
+
+# clean rule for target.
+libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_cpp.dir/clean:
+	$(MAKE) -f libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_cpp.dir/build.make libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_cpp.dir/clean
+.PHONY : libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_cpp.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_lisp.dir
+
+# All Build rule for target.
+libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_lisp.dir/all:
+	$(MAKE) -f libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_lisp.dir/build.make libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_lisp.dir/depend
+	$(MAKE) -f libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_lisp.dir/build.make libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_lisp.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
+	@echo "Built target bond_generate_messages_lisp"
+.PHONY : libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+.PHONY : libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+bond_generate_messages_lisp: libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_lisp.dir/rule
+.PHONY : bond_generate_messages_lisp
+
+# clean rule for target.
+libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_lisp.dir/clean:
+	$(MAKE) -f libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_lisp.dir/build.make libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_lisp.dir/clean
+.PHONY : libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_lisp.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_py.dir
+
+# All Build rule for target.
+libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_py.dir/all:
+	$(MAKE) -f libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_py.dir/build.make libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_py.dir/depend
+	$(MAKE) -f libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_py.dir/build.make libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_py.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
+	@echo "Built target bond_generate_messages_py"
+.PHONY : libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+.PHONY : libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_py.dir/rule
+
+# Convenience name for target.
+bond_generate_messages_py: libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_py.dir/rule
+.PHONY : bond_generate_messages_py
+
+# clean rule for target.
+libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_py.dir/clean:
+	$(MAKE) -f libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_py.dir/build.make libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_py.dir/clean
+.PHONY : libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_py.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target libuvc_ros/libuvc_camera/CMakeFiles/camera_node.dir
+
+# All Build rule for target.
+libuvc_ros/libuvc_camera/CMakeFiles/camera_node.dir/all: libuvc_ros/libuvc_camera/CMakeFiles/libuvc_camera_gencfg.dir/all
+	$(MAKE) -f libuvc_ros/libuvc_camera/CMakeFiles/camera_node.dir/build.make libuvc_ros/libuvc_camera/CMakeFiles/camera_node.dir/depend
+	$(MAKE) -f libuvc_ros/libuvc_camera/CMakeFiles/camera_node.dir/build.make libuvc_ros/libuvc_camera/CMakeFiles/camera_node.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles  1 2
+	@echo "Built target camera_node"
+.PHONY : libuvc_ros/libuvc_camera/CMakeFiles/camera_node.dir/all
+
+# Include target in all.
+all: libuvc_ros/libuvc_camera/CMakeFiles/camera_node.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+libuvc_ros/libuvc_camera/CMakeFiles/camera_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 libuvc_ros/libuvc_camera/CMakeFiles/camera_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+.PHONY : libuvc_ros/libuvc_camera/CMakeFiles/camera_node.dir/rule
+
+# Convenience name for target.
+camera_node: libuvc_ros/libuvc_camera/CMakeFiles/camera_node.dir/rule
+.PHONY : camera_node
+
+# clean rule for target.
+libuvc_ros/libuvc_camera/CMakeFiles/camera_node.dir/clean:
+	$(MAKE) -f libuvc_ros/libuvc_camera/CMakeFiles/camera_node.dir/build.make libuvc_ros/libuvc_camera/CMakeFiles/camera_node.dir/clean
+.PHONY : libuvc_ros/libuvc_camera/CMakeFiles/camera_node.dir/clean
+
+# clean rule for target.
+clean: libuvc_ros/libuvc_camera/CMakeFiles/camera_node.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_gencfg.dir
+
+# All Build rule for target.
+libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_gencfg.dir/all:
+	$(MAKE) -f libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_gencfg.dir/depend
+	$(MAKE) -f libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
+	@echo "Built target dynamic_reconfigure_gencfg"
+.PHONY : libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_gencfg.dir/all
+
+# Build rule for subdir invocation for target.
+libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_gencfg.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+.PHONY : libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
+
+# Convenience name for target.
+dynamic_reconfigure_gencfg: libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
+.PHONY : dynamic_reconfigure_gencfg
+
+# clean rule for target.
+libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_gencfg.dir/clean:
+	$(MAKE) -f libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_gencfg.dir/clean
+.PHONY : libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_gencfg.dir/clean
+
+# clean rule for target.
+clean: libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_gencfg.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir
+
+# All Build rule for target.
+libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all:
+	$(MAKE) -f libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/depend
+	$(MAKE) -f libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
+	@echo "Built target dynamic_reconfigure_generate_messages_cpp"
+.PHONY : libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+.PHONY : libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+dynamic_reconfigure_generate_messages_cpp: libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
+.PHONY : dynamic_reconfigure_generate_messages_cpp
+
+# clean rule for target.
+libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/clean:
+	$(MAKE) -f libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/clean
+.PHONY : libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir
+
+# All Build rule for target.
+libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all:
+	$(MAKE) -f libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/depend
+	$(MAKE) -f libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
+	@echo "Built target dynamic_reconfigure_generate_messages_lisp"
+.PHONY : libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+.PHONY : libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+dynamic_reconfigure_generate_messages_lisp: libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
+.PHONY : dynamic_reconfigure_generate_messages_lisp
+
+# clean rule for target.
+libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/clean:
+	$(MAKE) -f libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/clean
+.PHONY : libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir
+
+# All Build rule for target.
+libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all:
+	$(MAKE) -f libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/depend
+	$(MAKE) -f libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
+	@echo "Built target dynamic_reconfigure_generate_messages_py"
+.PHONY : libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+.PHONY : libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
+
+# Convenience name for target.
+dynamic_reconfigure_generate_messages_py: libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
+.PHONY : dynamic_reconfigure_generate_messages_py
+
+# clean rule for target.
+libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/clean:
+	$(MAKE) -f libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/clean
+.PHONY : libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target libuvc_ros/libuvc_camera/CMakeFiles/libuvc_camera_gencfg.dir
+
+# All Build rule for target.
+libuvc_ros/libuvc_camera/CMakeFiles/libuvc_camera_gencfg.dir/all:
+	$(MAKE) -f libuvc_ros/libuvc_camera/CMakeFiles/libuvc_camera_gencfg.dir/build.make libuvc_ros/libuvc_camera/CMakeFiles/libuvc_camera_gencfg.dir/depend
+	$(MAKE) -f libuvc_ros/libuvc_camera/CMakeFiles/libuvc_camera_gencfg.dir/build.make libuvc_ros/libuvc_camera/CMakeFiles/libuvc_camera_gencfg.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles  10
+	@echo "Built target libuvc_camera_gencfg"
+.PHONY : libuvc_ros/libuvc_camera/CMakeFiles/libuvc_camera_gencfg.dir/all
+
+# Include target in all.
+all: libuvc_ros/libuvc_camera/CMakeFiles/libuvc_camera_gencfg.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+libuvc_ros/libuvc_camera/CMakeFiles/libuvc_camera_gencfg.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 libuvc_ros/libuvc_camera/CMakeFiles/libuvc_camera_gencfg.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+.PHONY : libuvc_ros/libuvc_camera/CMakeFiles/libuvc_camera_gencfg.dir/rule
+
+# Convenience name for target.
+libuvc_camera_gencfg: libuvc_ros/libuvc_camera/CMakeFiles/libuvc_camera_gencfg.dir/rule
+.PHONY : libuvc_camera_gencfg
+
+# clean rule for target.
+libuvc_ros/libuvc_camera/CMakeFiles/libuvc_camera_gencfg.dir/clean:
+	$(MAKE) -f libuvc_ros/libuvc_camera/CMakeFiles/libuvc_camera_gencfg.dir/build.make libuvc_ros/libuvc_camera/CMakeFiles/libuvc_camera_gencfg.dir/clean
+.PHONY : libuvc_ros/libuvc_camera/CMakeFiles/libuvc_camera_gencfg.dir/clean
+
+# clean rule for target.
+clean: libuvc_ros/libuvc_camera/CMakeFiles/libuvc_camera_gencfg.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target libuvc_ros/libuvc_camera/CMakeFiles/libuvc_camera_nodelet.dir
+
+# All Build rule for target.
+libuvc_ros/libuvc_camera/CMakeFiles/libuvc_camera_nodelet.dir/all: libuvc_ros/libuvc_camera/CMakeFiles/libuvc_camera_gencfg.dir/all
+	$(MAKE) -f libuvc_ros/libuvc_camera/CMakeFiles/libuvc_camera_nodelet.dir/build.make libuvc_ros/libuvc_camera/CMakeFiles/libuvc_camera_nodelet.dir/depend
+	$(MAKE) -f libuvc_ros/libuvc_camera/CMakeFiles/libuvc_camera_nodelet.dir/build.make libuvc_ros/libuvc_camera/CMakeFiles/libuvc_camera_nodelet.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles  11 12
+	@echo "Built target libuvc_camera_nodelet"
+.PHONY : libuvc_ros/libuvc_camera/CMakeFiles/libuvc_camera_nodelet.dir/all
+
+# Include target in all.
+all: libuvc_ros/libuvc_camera/CMakeFiles/libuvc_camera_nodelet.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+libuvc_ros/libuvc_camera/CMakeFiles/libuvc_camera_nodelet.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 libuvc_ros/libuvc_camera/CMakeFiles/libuvc_camera_nodelet.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+.PHONY : libuvc_ros/libuvc_camera/CMakeFiles/libuvc_camera_nodelet.dir/rule
+
+# Convenience name for target.
+libuvc_camera_nodelet: libuvc_ros/libuvc_camera/CMakeFiles/libuvc_camera_nodelet.dir/rule
+.PHONY : libuvc_camera_nodelet
+
+# clean rule for target.
+libuvc_ros/libuvc_camera/CMakeFiles/libuvc_camera_nodelet.dir/clean:
+	$(MAKE) -f libuvc_ros/libuvc_camera/CMakeFiles/libuvc_camera_nodelet.dir/build.make libuvc_ros/libuvc_camera/CMakeFiles/libuvc_camera_nodelet.dir/clean
+.PHONY : libuvc_ros/libuvc_camera/CMakeFiles/libuvc_camera_nodelet.dir/clean
+
+# clean rule for target.
+clean: libuvc_ros/libuvc_camera/CMakeFiles/libuvc_camera_nodelet.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_cpp.dir
+
+# All Build rule for target.
+libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/all:
+	$(MAKE) -f libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/build.make libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/depend
+	$(MAKE) -f libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/build.make libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
+	@echo "Built target nodelet_generate_messages_cpp"
+.PHONY : libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+.PHONY : libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+nodelet_generate_messages_cpp: libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
+.PHONY : nodelet_generate_messages_cpp
+
+# clean rule for target.
+libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/clean:
+	$(MAKE) -f libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/build.make libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/clean
+.PHONY : libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_lisp.dir
+
+# All Build rule for target.
+libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/all:
+	$(MAKE) -f libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/depend
+	$(MAKE) -f libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
+	@echo "Built target nodelet_generate_messages_lisp"
+.PHONY : libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+.PHONY : libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+nodelet_generate_messages_lisp: libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
+.PHONY : nodelet_generate_messages_lisp
+
+# clean rule for target.
+libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/clean:
+	$(MAKE) -f libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/clean
+.PHONY : libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_py.dir
+
+# All Build rule for target.
+libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_py.dir/all:
+	$(MAKE) -f libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_py.dir/build.make libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_py.dir/depend
+	$(MAKE) -f libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_py.dir/build.make libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_py.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
+	@echo "Built target nodelet_generate_messages_py"
+.PHONY : libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+.PHONY : libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_py.dir/rule
+
+# Convenience name for target.
+nodelet_generate_messages_py: libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_py.dir/rule
+.PHONY : nodelet_generate_messages_py
+
+# clean rule for target.
+libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_py.dir/clean:
+	$(MAKE) -f libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_py.dir/build.make libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_py.dir/clean
+.PHONY : libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_py.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -1200,7 +1723,7 @@ clean: libhaloc/CMakeFiles/actionlib_msgs_generate_messages_py.dir/clean
 libhaloc/CMakeFiles/haloc.dir/all:
 	$(MAKE) -f libhaloc/CMakeFiles/haloc.dir/build.make libhaloc/CMakeFiles/haloc.dir/depend
 	$(MAKE) -f libhaloc/CMakeFiles/haloc.dir/build.make libhaloc/CMakeFiles/haloc.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles  3 4 5
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles  5 6 7
 	@echo "Built target haloc"
 .PHONY : libhaloc/CMakeFiles/haloc.dir/all
 
@@ -1424,20 +1947,10 @@ stereo_slam-indigo/all: stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messa
 
 # Convenience name for "clean" pass in the directory.
 stereo_slam-indigo/clean: stereo_slam-indigo/CMakeFiles/_stereo_slam_generate_messages_check_deps_GraphPoses.dir/clean
-stereo_slam-indigo/clean: stereo_slam-indigo/CMakeFiles/bond_generate_messages_cpp.dir/clean
-stereo_slam-indigo/clean: stereo_slam-indigo/CMakeFiles/bond_generate_messages_lisp.dir/clean
-stereo_slam-indigo/clean: stereo_slam-indigo/CMakeFiles/bond_generate_messages_py.dir/clean
-stereo_slam-indigo/clean: stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_gencfg.dir/clean
-stereo_slam-indigo/clean: stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/clean
-stereo_slam-indigo/clean: stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/clean
-stereo_slam-indigo/clean: stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/clean
 stereo_slam-indigo/clean: stereo_slam-indigo/CMakeFiles/localization.dir/clean
 stereo_slam-indigo/clean: stereo_slam-indigo/CMakeFiles/nav_msgs_generate_messages_cpp.dir/clean
 stereo_slam-indigo/clean: stereo_slam-indigo/CMakeFiles/nav_msgs_generate_messages_lisp.dir/clean
 stereo_slam-indigo/clean: stereo_slam-indigo/CMakeFiles/nav_msgs_generate_messages_py.dir/clean
-stereo_slam-indigo/clean: stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_cpp.dir/clean
-stereo_slam-indigo/clean: stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_lisp.dir/clean
-stereo_slam-indigo/clean: stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_py.dir/clean
 stereo_slam-indigo/clean: stereo_slam-indigo/CMakeFiles/pcl_msgs_generate_messages_cpp.dir/clean
 stereo_slam-indigo/clean: stereo_slam-indigo/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/clean
 stereo_slam-indigo/clean: stereo_slam-indigo/CMakeFiles/pcl_msgs_generate_messages_py.dir/clean
@@ -1493,231 +2006,14 @@ clean: stereo_slam-indigo/CMakeFiles/_stereo_slam_generate_messages_check_deps_G
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target stereo_slam-indigo/CMakeFiles/bond_generate_messages_cpp.dir
-
-# All Build rule for target.
-stereo_slam-indigo/CMakeFiles/bond_generate_messages_cpp.dir/all:
-	$(MAKE) -f stereo_slam-indigo/CMakeFiles/bond_generate_messages_cpp.dir/build.make stereo_slam-indigo/CMakeFiles/bond_generate_messages_cpp.dir/depend
-	$(MAKE) -f stereo_slam-indigo/CMakeFiles/bond_generate_messages_cpp.dir/build.make stereo_slam-indigo/CMakeFiles/bond_generate_messages_cpp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
-	@echo "Built target bond_generate_messages_cpp"
-.PHONY : stereo_slam-indigo/CMakeFiles/bond_generate_messages_cpp.dir/all
-
-# Build rule for subdir invocation for target.
-stereo_slam-indigo/CMakeFiles/bond_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 stereo_slam-indigo/CMakeFiles/bond_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-.PHONY : stereo_slam-indigo/CMakeFiles/bond_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-bond_generate_messages_cpp: stereo_slam-indigo/CMakeFiles/bond_generate_messages_cpp.dir/rule
-.PHONY : bond_generate_messages_cpp
-
-# clean rule for target.
-stereo_slam-indigo/CMakeFiles/bond_generate_messages_cpp.dir/clean:
-	$(MAKE) -f stereo_slam-indigo/CMakeFiles/bond_generate_messages_cpp.dir/build.make stereo_slam-indigo/CMakeFiles/bond_generate_messages_cpp.dir/clean
-.PHONY : stereo_slam-indigo/CMakeFiles/bond_generate_messages_cpp.dir/clean
-
-# clean rule for target.
-clean: stereo_slam-indigo/CMakeFiles/bond_generate_messages_cpp.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target stereo_slam-indigo/CMakeFiles/bond_generate_messages_lisp.dir
-
-# All Build rule for target.
-stereo_slam-indigo/CMakeFiles/bond_generate_messages_lisp.dir/all:
-	$(MAKE) -f stereo_slam-indigo/CMakeFiles/bond_generate_messages_lisp.dir/build.make stereo_slam-indigo/CMakeFiles/bond_generate_messages_lisp.dir/depend
-	$(MAKE) -f stereo_slam-indigo/CMakeFiles/bond_generate_messages_lisp.dir/build.make stereo_slam-indigo/CMakeFiles/bond_generate_messages_lisp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
-	@echo "Built target bond_generate_messages_lisp"
-.PHONY : stereo_slam-indigo/CMakeFiles/bond_generate_messages_lisp.dir/all
-
-# Build rule for subdir invocation for target.
-stereo_slam-indigo/CMakeFiles/bond_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 stereo_slam-indigo/CMakeFiles/bond_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-.PHONY : stereo_slam-indigo/CMakeFiles/bond_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-bond_generate_messages_lisp: stereo_slam-indigo/CMakeFiles/bond_generate_messages_lisp.dir/rule
-.PHONY : bond_generate_messages_lisp
-
-# clean rule for target.
-stereo_slam-indigo/CMakeFiles/bond_generate_messages_lisp.dir/clean:
-	$(MAKE) -f stereo_slam-indigo/CMakeFiles/bond_generate_messages_lisp.dir/build.make stereo_slam-indigo/CMakeFiles/bond_generate_messages_lisp.dir/clean
-.PHONY : stereo_slam-indigo/CMakeFiles/bond_generate_messages_lisp.dir/clean
-
-# clean rule for target.
-clean: stereo_slam-indigo/CMakeFiles/bond_generate_messages_lisp.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target stereo_slam-indigo/CMakeFiles/bond_generate_messages_py.dir
-
-# All Build rule for target.
-stereo_slam-indigo/CMakeFiles/bond_generate_messages_py.dir/all:
-	$(MAKE) -f stereo_slam-indigo/CMakeFiles/bond_generate_messages_py.dir/build.make stereo_slam-indigo/CMakeFiles/bond_generate_messages_py.dir/depend
-	$(MAKE) -f stereo_slam-indigo/CMakeFiles/bond_generate_messages_py.dir/build.make stereo_slam-indigo/CMakeFiles/bond_generate_messages_py.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
-	@echo "Built target bond_generate_messages_py"
-.PHONY : stereo_slam-indigo/CMakeFiles/bond_generate_messages_py.dir/all
-
-# Build rule for subdir invocation for target.
-stereo_slam-indigo/CMakeFiles/bond_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 stereo_slam-indigo/CMakeFiles/bond_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-.PHONY : stereo_slam-indigo/CMakeFiles/bond_generate_messages_py.dir/rule
-
-# Convenience name for target.
-bond_generate_messages_py: stereo_slam-indigo/CMakeFiles/bond_generate_messages_py.dir/rule
-.PHONY : bond_generate_messages_py
-
-# clean rule for target.
-stereo_slam-indigo/CMakeFiles/bond_generate_messages_py.dir/clean:
-	$(MAKE) -f stereo_slam-indigo/CMakeFiles/bond_generate_messages_py.dir/build.make stereo_slam-indigo/CMakeFiles/bond_generate_messages_py.dir/clean
-.PHONY : stereo_slam-indigo/CMakeFiles/bond_generate_messages_py.dir/clean
-
-# clean rule for target.
-clean: stereo_slam-indigo/CMakeFiles/bond_generate_messages_py.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_gencfg.dir
-
-# All Build rule for target.
-stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_gencfg.dir/all:
-	$(MAKE) -f stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_gencfg.dir/depend
-	$(MAKE) -f stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
-	@echo "Built target dynamic_reconfigure_gencfg"
-.PHONY : stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_gencfg.dir/all
-
-# Build rule for subdir invocation for target.
-stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_gencfg.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-.PHONY : stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
-
-# Convenience name for target.
-dynamic_reconfigure_gencfg: stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
-.PHONY : dynamic_reconfigure_gencfg
-
-# clean rule for target.
-stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_gencfg.dir/clean:
-	$(MAKE) -f stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_gencfg.dir/clean
-.PHONY : stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_gencfg.dir/clean
-
-# clean rule for target.
-clean: stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_gencfg.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir
-
-# All Build rule for target.
-stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all:
-	$(MAKE) -f stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/depend
-	$(MAKE) -f stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
-	@echo "Built target dynamic_reconfigure_generate_messages_cpp"
-.PHONY : stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
-
-# Build rule for subdir invocation for target.
-stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-.PHONY : stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-dynamic_reconfigure_generate_messages_cpp: stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
-.PHONY : dynamic_reconfigure_generate_messages_cpp
-
-# clean rule for target.
-stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/clean:
-	$(MAKE) -f stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/clean
-.PHONY : stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/clean
-
-# clean rule for target.
-clean: stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir
-
-# All Build rule for target.
-stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all:
-	$(MAKE) -f stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/depend
-	$(MAKE) -f stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
-	@echo "Built target dynamic_reconfigure_generate_messages_lisp"
-.PHONY : stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all
-
-# Build rule for subdir invocation for target.
-stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-.PHONY : stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-dynamic_reconfigure_generate_messages_lisp: stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
-.PHONY : dynamic_reconfigure_generate_messages_lisp
-
-# clean rule for target.
-stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/clean:
-	$(MAKE) -f stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/clean
-.PHONY : stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/clean
-
-# clean rule for target.
-clean: stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir
-
-# All Build rule for target.
-stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all:
-	$(MAKE) -f stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/depend
-	$(MAKE) -f stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
-	@echo "Built target dynamic_reconfigure_generate_messages_py"
-.PHONY : stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
-
-# Build rule for subdir invocation for target.
-stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-.PHONY : stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
-
-# Convenience name for target.
-dynamic_reconfigure_generate_messages_py: stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
-.PHONY : dynamic_reconfigure_generate_messages_py
-
-# clean rule for target.
-stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/clean:
-	$(MAKE) -f stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/clean
-.PHONY : stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/clean
-
-# clean rule for target.
-clean: stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/clean
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target stereo_slam-indigo/CMakeFiles/localization.dir
 
 # All Build rule for target.
-stereo_slam-indigo/CMakeFiles/localization.dir/all: stereo_slam-indigo/CMakeFiles/stereo_slam_gencpp.dir/all
 stereo_slam-indigo/CMakeFiles/localization.dir/all: libhaloc/CMakeFiles/haloc.dir/all
+stereo_slam-indigo/CMakeFiles/localization.dir/all: stereo_slam-indigo/CMakeFiles/stereo_slam_gencpp.dir/all
 	$(MAKE) -f stereo_slam-indigo/CMakeFiles/localization.dir/build.make stereo_slam-indigo/CMakeFiles/localization.dir/depend
 	$(MAKE) -f stereo_slam-indigo/CMakeFiles/localization.dir/build.make stereo_slam-indigo/CMakeFiles/localization.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles  6 7 8 9 10 11 12
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles  13 14 15 16 17 18 19
 	@echo "Built target localization"
 .PHONY : stereo_slam-indigo/CMakeFiles/localization.dir/all
 
@@ -1836,99 +2132,6 @@ stereo_slam-indigo/CMakeFiles/nav_msgs_generate_messages_py.dir/clean:
 
 # clean rule for target.
 clean: stereo_slam-indigo/CMakeFiles/nav_msgs_generate_messages_py.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_cpp.dir
-
-# All Build rule for target.
-stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_cpp.dir/all:
-	$(MAKE) -f stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_cpp.dir/build.make stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_cpp.dir/depend
-	$(MAKE) -f stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_cpp.dir/build.make stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_cpp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
-	@echo "Built target nodelet_generate_messages_cpp"
-.PHONY : stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_cpp.dir/all
-
-# Build rule for subdir invocation for target.
-stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-.PHONY : stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-nodelet_generate_messages_cpp: stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
-.PHONY : nodelet_generate_messages_cpp
-
-# clean rule for target.
-stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_cpp.dir/clean:
-	$(MAKE) -f stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_cpp.dir/build.make stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_cpp.dir/clean
-.PHONY : stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_cpp.dir/clean
-
-# clean rule for target.
-clean: stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_cpp.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_lisp.dir
-
-# All Build rule for target.
-stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_lisp.dir/all:
-	$(MAKE) -f stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_lisp.dir/depend
-	$(MAKE) -f stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_lisp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
-	@echo "Built target nodelet_generate_messages_lisp"
-.PHONY : stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_lisp.dir/all
-
-# Build rule for subdir invocation for target.
-stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-.PHONY : stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-nodelet_generate_messages_lisp: stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
-.PHONY : nodelet_generate_messages_lisp
-
-# clean rule for target.
-stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_lisp.dir/clean:
-	$(MAKE) -f stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_lisp.dir/clean
-.PHONY : stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_lisp.dir/clean
-
-# clean rule for target.
-clean: stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_lisp.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_py.dir
-
-# All Build rule for target.
-stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_py.dir/all:
-	$(MAKE) -f stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_py.dir/build.make stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_py.dir/depend
-	$(MAKE) -f stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_py.dir/build.make stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_py.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
-	@echo "Built target nodelet_generate_messages_py"
-.PHONY : stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_py.dir/all
-
-# Build rule for subdir invocation for target.
-stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
-.PHONY : stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_py.dir/rule
-
-# Convenience name for target.
-nodelet_generate_messages_py: stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_py.dir/rule
-.PHONY : nodelet_generate_messages_py
-
-# clean rule for target.
-stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_py.dir/clean:
-	$(MAKE) -f stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_py.dir/build.make stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_py.dir/clean
-.PHONY : stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_py.dir/clean
-
-# clean rule for target.
-clean: stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_py.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -2183,8 +2386,8 @@ clean: stereo_slam-indigo/CMakeFiles/stereo_slam_gencpp.dir/clean
 # Target rules for target stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages.dir
 
 # All Build rule for target.
-stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages.dir/all: stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages_lisp.dir/all
 stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages.dir/all: stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages_py.dir/all
+stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages.dir/all: stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages_lisp.dir/all
 stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages.dir/all: stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages_cpp.dir/all
 	$(MAKE) -f stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages.dir/build.make stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages.dir/depend
 	$(MAKE) -f stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages.dir/build.make stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages.dir/build
@@ -2220,11 +2423,11 @@ clean: stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages.dir/clean
 # Target rules for target stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages_cpp.dir
 
 # All Build rule for target.
-stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages_cpp.dir/all: reconstruction/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages_cpp.dir/all: camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages_cpp.dir/all: stereo_slam-indigo/CMakeFiles/_stereo_slam_generate_messages_check_deps_GraphPoses.dir/all
 	$(MAKE) -f stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages_cpp.dir/build.make stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages_cpp.dir/depend
 	$(MAKE) -f stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages_cpp.dir/build.make stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages_cpp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles  16
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles  27
 	@echo "Built target stereo_slam_generate_messages_cpp"
 .PHONY : stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages_cpp.dir/all
 
@@ -2252,11 +2455,11 @@ clean: stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages_cpp.dir/clean
 # Target rules for target stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages_lisp.dir
 
 # All Build rule for target.
-stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages_lisp.dir/all: reconstruction/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages_lisp.dir/all: camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages_lisp.dir/all: stereo_slam-indigo/CMakeFiles/_stereo_slam_generate_messages_check_deps_GraphPoses.dir/all
 	$(MAKE) -f stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages_lisp.dir/build.make stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages_lisp.dir/depend
 	$(MAKE) -f stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages_lisp.dir/build.make stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages_lisp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles  17
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles  28
 	@echo "Built target stereo_slam_generate_messages_lisp"
 .PHONY : stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages_lisp.dir/all
 
@@ -2284,11 +2487,11 @@ clean: stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages_lisp.dir/clea
 # Target rules for target stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages_py.dir
 
 # All Build rule for target.
-stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages_py.dir/all: reconstruction/CMakeFiles/std_msgs_generate_messages_py.dir/all
+stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages_py.dir/all: camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_py.dir/all
 stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages_py.dir/all: stereo_slam-indigo/CMakeFiles/_stereo_slam_generate_messages_check_deps_GraphPoses.dir/all
 	$(MAKE) -f stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages_py.dir/build.make stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages_py.dir/depend
 	$(MAKE) -f stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages_py.dir/build.make stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages_py.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles  18 19
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles  29 30
 	@echo "Built target stereo_slam_generate_messages_py"
 .PHONY : stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages_py.dir/all
 
@@ -2468,6 +2671,130 @@ clean: stereo_slam-indigo/CMakeFiles/topic_tools_generate_messages_py.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory camera_umd/uvc_camera
+
+# Convenience name for "all" pass in the directory.
+camera_umd/uvc_camera/all: camera_umd/uvc_camera/CMakeFiles/nodelet_uvc_camera.dir/all
+camera_umd/uvc_camera/all: camera_umd/uvc_camera/CMakeFiles/uvc_camera_node.dir/all
+camera_umd/uvc_camera/all: camera_umd/uvc_camera/CMakeFiles/uvc_stereo_node.dir/all
+.PHONY : camera_umd/uvc_camera/all
+
+# Convenience name for "clean" pass in the directory.
+camera_umd/uvc_camera/clean: camera_umd/uvc_camera/CMakeFiles/nodelet_uvc_camera.dir/clean
+camera_umd/uvc_camera/clean: camera_umd/uvc_camera/CMakeFiles/uvc_camera_node.dir/clean
+camera_umd/uvc_camera/clean: camera_umd/uvc_camera/CMakeFiles/uvc_stereo_node.dir/clean
+.PHONY : camera_umd/uvc_camera/clean
+
+# Convenience name for "preinstall" pass in the directory.
+camera_umd/uvc_camera/preinstall:
+.PHONY : camera_umd/uvc_camera/preinstall
+
+#=============================================================================
+# Target rules for target camera_umd/uvc_camera/CMakeFiles/nodelet_uvc_camera.dir
+
+# All Build rule for target.
+camera_umd/uvc_camera/CMakeFiles/nodelet_uvc_camera.dir/all:
+	$(MAKE) -f camera_umd/uvc_camera/CMakeFiles/nodelet_uvc_camera.dir/build.make camera_umd/uvc_camera/CMakeFiles/nodelet_uvc_camera.dir/depend
+	$(MAKE) -f camera_umd/uvc_camera/CMakeFiles/nodelet_uvc_camera.dir/build.make camera_umd/uvc_camera/CMakeFiles/nodelet_uvc_camera.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles  21 22 23 24
+	@echo "Built target nodelet_uvc_camera"
+.PHONY : camera_umd/uvc_camera/CMakeFiles/nodelet_uvc_camera.dir/all
+
+# Include target in all.
+all: camera_umd/uvc_camera/CMakeFiles/nodelet_uvc_camera.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+camera_umd/uvc_camera/CMakeFiles/nodelet_uvc_camera.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 camera_umd/uvc_camera/CMakeFiles/nodelet_uvc_camera.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+.PHONY : camera_umd/uvc_camera/CMakeFiles/nodelet_uvc_camera.dir/rule
+
+# Convenience name for target.
+nodelet_uvc_camera: camera_umd/uvc_camera/CMakeFiles/nodelet_uvc_camera.dir/rule
+.PHONY : nodelet_uvc_camera
+
+# clean rule for target.
+camera_umd/uvc_camera/CMakeFiles/nodelet_uvc_camera.dir/clean:
+	$(MAKE) -f camera_umd/uvc_camera/CMakeFiles/nodelet_uvc_camera.dir/build.make camera_umd/uvc_camera/CMakeFiles/nodelet_uvc_camera.dir/clean
+.PHONY : camera_umd/uvc_camera/CMakeFiles/nodelet_uvc_camera.dir/clean
+
+# clean rule for target.
+clean: camera_umd/uvc_camera/CMakeFiles/nodelet_uvc_camera.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target camera_umd/uvc_camera/CMakeFiles/uvc_camera_node.dir
+
+# All Build rule for target.
+camera_umd/uvc_camera/CMakeFiles/uvc_camera_node.dir/all:
+	$(MAKE) -f camera_umd/uvc_camera/CMakeFiles/uvc_camera_node.dir/build.make camera_umd/uvc_camera/CMakeFiles/uvc_camera_node.dir/depend
+	$(MAKE) -f camera_umd/uvc_camera/CMakeFiles/uvc_camera_node.dir/build.make camera_umd/uvc_camera/CMakeFiles/uvc_camera_node.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles  32 33 34
+	@echo "Built target uvc_camera_node"
+.PHONY : camera_umd/uvc_camera/CMakeFiles/uvc_camera_node.dir/all
+
+# Include target in all.
+all: camera_umd/uvc_camera/CMakeFiles/uvc_camera_node.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+camera_umd/uvc_camera/CMakeFiles/uvc_camera_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 camera_umd/uvc_camera/CMakeFiles/uvc_camera_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+.PHONY : camera_umd/uvc_camera/CMakeFiles/uvc_camera_node.dir/rule
+
+# Convenience name for target.
+uvc_camera_node: camera_umd/uvc_camera/CMakeFiles/uvc_camera_node.dir/rule
+.PHONY : uvc_camera_node
+
+# clean rule for target.
+camera_umd/uvc_camera/CMakeFiles/uvc_camera_node.dir/clean:
+	$(MAKE) -f camera_umd/uvc_camera/CMakeFiles/uvc_camera_node.dir/build.make camera_umd/uvc_camera/CMakeFiles/uvc_camera_node.dir/clean
+.PHONY : camera_umd/uvc_camera/CMakeFiles/uvc_camera_node.dir/clean
+
+# clean rule for target.
+clean: camera_umd/uvc_camera/CMakeFiles/uvc_camera_node.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target camera_umd/uvc_camera/CMakeFiles/uvc_stereo_node.dir
+
+# All Build rule for target.
+camera_umd/uvc_camera/CMakeFiles/uvc_stereo_node.dir/all:
+	$(MAKE) -f camera_umd/uvc_camera/CMakeFiles/uvc_stereo_node.dir/build.make camera_umd/uvc_camera/CMakeFiles/uvc_stereo_node.dir/depend
+	$(MAKE) -f camera_umd/uvc_camera/CMakeFiles/uvc_stereo_node.dir/build.make camera_umd/uvc_camera/CMakeFiles/uvc_stereo_node.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles  35 36 37
+	@echo "Built target uvc_stereo_node"
+.PHONY : camera_umd/uvc_camera/CMakeFiles/uvc_stereo_node.dir/all
+
+# Include target in all.
+all: camera_umd/uvc_camera/CMakeFiles/uvc_stereo_node.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+camera_umd/uvc_camera/CMakeFiles/uvc_stereo_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 camera_umd/uvc_camera/CMakeFiles/uvc_stereo_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 0
+.PHONY : camera_umd/uvc_camera/CMakeFiles/uvc_stereo_node.dir/rule
+
+# Convenience name for target.
+uvc_stereo_node: camera_umd/uvc_camera/CMakeFiles/uvc_stereo_node.dir/rule
+.PHONY : uvc_stereo_node
+
+# clean rule for target.
+camera_umd/uvc_camera/CMakeFiles/uvc_stereo_node.dir/clean:
+	$(MAKE) -f camera_umd/uvc_camera/CMakeFiles/uvc_stereo_node.dir/build.make camera_umd/uvc_camera/CMakeFiles/uvc_stereo_node.dir/clean
+.PHONY : camera_umd/uvc_camera/CMakeFiles/uvc_stereo_node.dir/clean
+
+# clean rule for target.
+clean: camera_umd/uvc_camera/CMakeFiles/uvc_stereo_node.dir/clean
+.PHONY : clean
+
+#=============================================================================
 # Directory level rules for directory viso2/viso2_ros
 
 # Convenience name for "all" pass in the directory.
@@ -2529,60 +2856,60 @@ clean: viso2/viso2_ros/CMakeFiles/_viso2_ros_generate_messages_check_deps_VisoIn
 
 # All Build rule for target.
 viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: viso2/libviso2/CMakeFiles/viso2.dir/all
-viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: reconstruction/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: reconstruction/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
-viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: reconstruction/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
-viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: libhaloc/CMakeFiles/tf_generate_messages_cpp.dir/all
-viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: reconstruction/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: libhaloc/CMakeFiles/tf_generate_messages_lisp.dir/all
-viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: reconstruction/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: reconstruction/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: reconstruction/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: libhaloc/CMakeFiles/actionlib_generate_messages_lisp.dir/all
-viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: reconstruction/CMakeFiles/std_msgs_generate_messages_py.dir/all
-viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: reconstruction/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: reconstruction/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: reconstruction/CMakeFiles/roscpp_generate_messages_py.dir/all
-viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: reconstruction/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: libhaloc/CMakeFiles/tf_generate_messages_py.dir/all
-viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: libhaloc/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
-viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: libhaloc/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
+viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_py.dir/all
+viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_py.dir/all
+viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all
+viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: stereo_slam-indigo/CMakeFiles/std_srvs_generate_messages_py.dir/all
+viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
+viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
+viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/all
+viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_gencfg.dir/all
+viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/all
+viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_py.dir/all
+viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_cpp.dir/all
+viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_lisp.dir/all
+viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_py.dir/all
 viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: libhaloc/CMakeFiles/actionlib_generate_messages_cpp.dir/all
+viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: libhaloc/CMakeFiles/tf_generate_messages_py.dir/all
+viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: libhaloc/CMakeFiles/tf_generate_messages_lisp.dir/all
 viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: libhaloc/CMakeFiles/actionlib_generate_messages_py.dir/all
+viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: libhaloc/CMakeFiles/actionlib_generate_messages_lisp.dir/all
+viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: libhaloc/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
 viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: libhaloc/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
+viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: libhaloc/CMakeFiles/tf_generate_messages_cpp.dir/all
+viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: libhaloc/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
 viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: libhaloc/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
 viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: libhaloc/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
 viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: libhaloc/CMakeFiles/tf2_msgs_generate_messages_py.dir/all
-viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: stereo_slam-indigo/CMakeFiles/nav_msgs_generate_messages_lisp.dir/all
-viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: stereo_slam-indigo/CMakeFiles/nav_msgs_generate_messages_py.dir/all
 viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: stereo_slam-indigo/CMakeFiles/nav_msgs_generate_messages_cpp.dir/all
-viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: stereo_slam-indigo/CMakeFiles/pcl_ros_gencfg.dir/all
-viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
-viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
-viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_gencfg.dir/all
-viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: stereo_slam-indigo/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
-viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_cpp.dir/all
+viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: stereo_slam-indigo/CMakeFiles/nav_msgs_generate_messages_py.dir/all
+viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: stereo_slam-indigo/CMakeFiles/nav_msgs_generate_messages_lisp.dir/all
 viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: stereo_slam-indigo/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
-viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_lisp.dir/all
-viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all
-viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: stereo_slam-indigo/CMakeFiles/std_srvs_generate_messages_py.dir/all
-viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: stereo_slam-indigo/CMakeFiles/topic_tools_generate_messages_cpp.dir/all
-viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_py.dir/all
-viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: stereo_slam-indigo/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/all
-viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: stereo_slam-indigo/CMakeFiles/bond_generate_messages_cpp.dir/all
-viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: stereo_slam-indigo/CMakeFiles/pcl_msgs_generate_messages_py.dir/all
-viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: stereo_slam-indigo/CMakeFiles/bond_generate_messages_lisp.dir/all
-viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: stereo_slam-indigo/CMakeFiles/bond_generate_messages_py.dir/all
-viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: stereo_slam-indigo/CMakeFiles/topic_tools_generate_messages_lisp.dir/all
-viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: stereo_slam-indigo/CMakeFiles/pcl_msgs_generate_messages_cpp.dir/all
 viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: stereo_slam-indigo/CMakeFiles/topic_tools_generate_messages_py.dir/all
+viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: stereo_slam-indigo/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
+viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: stereo_slam-indigo/CMakeFiles/pcl_ros_gencfg.dir/all
+viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: stereo_slam-indigo/CMakeFiles/pcl_msgs_generate_messages_cpp.dir/all
+viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: stereo_slam-indigo/CMakeFiles/pcl_msgs_generate_messages_py.dir/all
+viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: stereo_slam-indigo/CMakeFiles/topic_tools_generate_messages_lisp.dir/all
+viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: stereo_slam-indigo/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/all
+viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: stereo_slam-indigo/CMakeFiles/topic_tools_generate_messages_cpp.dir/all
 viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all: viso2/viso2_ros/CMakeFiles/viso2_ros_gencpp.dir/all
 	$(MAKE) -f viso2/viso2_ros/CMakeFiles/mono_odometer.dir/build.make viso2/viso2_ros/CMakeFiles/mono_odometer.dir/depend
 	$(MAKE) -f viso2/viso2_ros/CMakeFiles/mono_odometer.dir/build.make viso2/viso2_ros/CMakeFiles/mono_odometer.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles  13
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles  20
 	@echo "Built target mono_odometer"
 .PHONY : viso2/viso2_ros/CMakeFiles/mono_odometer.dir/all
 
@@ -2615,60 +2942,60 @@ clean: viso2/viso2_ros/CMakeFiles/mono_odometer.dir/clean
 
 # All Build rule for target.
 viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: viso2/libviso2/CMakeFiles/viso2.dir/all
-viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: reconstruction/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: reconstruction/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
-viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: reconstruction/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
-viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: libhaloc/CMakeFiles/tf_generate_messages_cpp.dir/all
-viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: reconstruction/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: libhaloc/CMakeFiles/tf_generate_messages_lisp.dir/all
-viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: reconstruction/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: reconstruction/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: reconstruction/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: libhaloc/CMakeFiles/actionlib_generate_messages_lisp.dir/all
-viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: reconstruction/CMakeFiles/std_msgs_generate_messages_py.dir/all
-viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: reconstruction/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: reconstruction/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: reconstruction/CMakeFiles/roscpp_generate_messages_py.dir/all
-viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: reconstruction/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: reconstruction/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: libhaloc/CMakeFiles/tf_generate_messages_py.dir/all
-viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: libhaloc/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
-viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: libhaloc/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
+viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: camera_umd/jpeg_streamer/CMakeFiles/roscpp_generate_messages_py.dir/all
+viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: camera_umd/jpeg_streamer/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: camera_umd/jpeg_streamer/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_py.dir/all
+viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all
+viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: camera_umd/jpeg_streamer/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: stereo_slam-indigo/CMakeFiles/std_srvs_generate_messages_py.dir/all
+viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
+viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
+viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/all
+viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: libuvc_ros/libuvc_camera/CMakeFiles/dynamic_reconfigure_gencfg.dir/all
+viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/all
+viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: libuvc_ros/libuvc_camera/CMakeFiles/nodelet_generate_messages_py.dir/all
+viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_cpp.dir/all
+viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_lisp.dir/all
+viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: libuvc_ros/libuvc_camera/CMakeFiles/bond_generate_messages_py.dir/all
 viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: libhaloc/CMakeFiles/actionlib_generate_messages_cpp.dir/all
+viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: libhaloc/CMakeFiles/tf_generate_messages_py.dir/all
+viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: libhaloc/CMakeFiles/tf_generate_messages_lisp.dir/all
 viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: libhaloc/CMakeFiles/actionlib_generate_messages_py.dir/all
+viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: libhaloc/CMakeFiles/actionlib_generate_messages_lisp.dir/all
+viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: libhaloc/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
 viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: libhaloc/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
+viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: libhaloc/CMakeFiles/tf_generate_messages_cpp.dir/all
+viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: libhaloc/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
 viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: libhaloc/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
 viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: libhaloc/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
 viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: libhaloc/CMakeFiles/tf2_msgs_generate_messages_py.dir/all
-viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: stereo_slam-indigo/CMakeFiles/nav_msgs_generate_messages_lisp.dir/all
-viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: stereo_slam-indigo/CMakeFiles/nav_msgs_generate_messages_py.dir/all
 viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: stereo_slam-indigo/CMakeFiles/nav_msgs_generate_messages_cpp.dir/all
-viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: stereo_slam-indigo/CMakeFiles/pcl_ros_gencfg.dir/all
-viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
-viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
-viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_gencfg.dir/all
-viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: stereo_slam-indigo/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
-viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_cpp.dir/all
+viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: stereo_slam-indigo/CMakeFiles/nav_msgs_generate_messages_py.dir/all
+viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: stereo_slam-indigo/CMakeFiles/nav_msgs_generate_messages_lisp.dir/all
 viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: stereo_slam-indigo/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
-viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_lisp.dir/all
-viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all
-viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: stereo_slam-indigo/CMakeFiles/std_srvs_generate_messages_py.dir/all
-viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: stereo_slam-indigo/CMakeFiles/topic_tools_generate_messages_cpp.dir/all
-viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_py.dir/all
-viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: stereo_slam-indigo/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/all
-viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: stereo_slam-indigo/CMakeFiles/bond_generate_messages_cpp.dir/all
-viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: stereo_slam-indigo/CMakeFiles/pcl_msgs_generate_messages_py.dir/all
-viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: stereo_slam-indigo/CMakeFiles/bond_generate_messages_lisp.dir/all
-viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: stereo_slam-indigo/CMakeFiles/bond_generate_messages_py.dir/all
-viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: stereo_slam-indigo/CMakeFiles/topic_tools_generate_messages_lisp.dir/all
-viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: stereo_slam-indigo/CMakeFiles/pcl_msgs_generate_messages_cpp.dir/all
 viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: stereo_slam-indigo/CMakeFiles/topic_tools_generate_messages_py.dir/all
+viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: stereo_slam-indigo/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
+viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: stereo_slam-indigo/CMakeFiles/pcl_ros_gencfg.dir/all
+viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: stereo_slam-indigo/CMakeFiles/pcl_msgs_generate_messages_cpp.dir/all
+viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: stereo_slam-indigo/CMakeFiles/pcl_msgs_generate_messages_py.dir/all
+viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: stereo_slam-indigo/CMakeFiles/topic_tools_generate_messages_lisp.dir/all
+viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: stereo_slam-indigo/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/all
+viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: stereo_slam-indigo/CMakeFiles/topic_tools_generate_messages_cpp.dir/all
 viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all: viso2/viso2_ros/CMakeFiles/viso2_ros_gencpp.dir/all
 	$(MAKE) -f viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/build.make viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/depend
 	$(MAKE) -f viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/build.make viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles  15
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles  26
 	@echo "Built target stereo_odometer"
 .PHONY : viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/all
 
@@ -2731,9 +3058,9 @@ clean: viso2/viso2_ros/CMakeFiles/viso2_ros_gencpp.dir/clean
 # Target rules for target viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages.dir
 
 # All Build rule for target.
-viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages.dir/all: viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages_py.dir/all
 viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages.dir/all: viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages_cpp.dir/all
 viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages.dir/all: viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages_lisp.dir/all
+viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages.dir/all: viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages_py.dir/all
 	$(MAKE) -f viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages.dir/build.make viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages.dir/depend
 	$(MAKE) -f viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages.dir/build.make viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles 
@@ -2768,11 +3095,11 @@ clean: viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages.dir/clean
 # Target rules for target viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages_cpp.dir
 
 # All Build rule for target.
-viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages_cpp.dir/all: reconstruction/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages_cpp.dir/all: camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages_cpp.dir/all: viso2/viso2_ros/CMakeFiles/_viso2_ros_generate_messages_check_deps_VisoInfo.dir/all
 	$(MAKE) -f viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages_cpp.dir/build.make viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages_cpp.dir/depend
 	$(MAKE) -f viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages_cpp.dir/build.make viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages_cpp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles  29
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles  46
 	@echo "Built target viso2_ros_generate_messages_cpp"
 .PHONY : viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages_cpp.dir/all
 
@@ -2800,11 +3127,11 @@ clean: viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages_cpp.dir/clean
 # Target rules for target viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages_lisp.dir
 
 # All Build rule for target.
-viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages_lisp.dir/all: reconstruction/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages_lisp.dir/all: camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages_lisp.dir/all: viso2/viso2_ros/CMakeFiles/_viso2_ros_generate_messages_check_deps_VisoInfo.dir/all
 	$(MAKE) -f viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages_lisp.dir/build.make viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages_lisp.dir/depend
 	$(MAKE) -f viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages_lisp.dir/build.make viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages_lisp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles  30
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles  47
 	@echo "Built target viso2_ros_generate_messages_lisp"
 .PHONY : viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages_lisp.dir/all
 
@@ -2832,11 +3159,11 @@ clean: viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages_lisp.dir/clean
 # Target rules for target viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages_py.dir
 
 # All Build rule for target.
-viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages_py.dir/all: reconstruction/CMakeFiles/std_msgs_generate_messages_py.dir/all
+viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages_py.dir/all: camera_umd/jpeg_streamer/CMakeFiles/std_msgs_generate_messages_py.dir/all
 viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages_py.dir/all: viso2/viso2_ros/CMakeFiles/_viso2_ros_generate_messages_check_deps_VisoInfo.dir/all
 	$(MAKE) -f viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages_py.dir/build.make viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages_py.dir/depend
 	$(MAKE) -f viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages_py.dir/build.make viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages_py.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles  31 32
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/joe/Documents/Indoor-3D-Reconstruction/ros/build/CMakeFiles  48 49
 	@echo "Built target viso2_ros_generate_messages_py"
 .PHONY : viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages_py.dir/all
 

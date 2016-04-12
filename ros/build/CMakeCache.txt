@@ -26,6 +26,9 @@ Boost_DATE_TIME_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_date_t
 //Boost date_time library (release)
 Boost_DATE_TIME_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_date_time.so
 
+//The directory containing a CMake configuration file for Boost.
+Boost_DIR:PATH=Boost_DIR-NOTFOUND
+
 //Boost filesystem library (debug)
 Boost_FILESYSTEM_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 
@@ -604,6 +607,15 @@ bond_DIR:PATH=/opt/ros/indigo/share/bond/cmake
 //The directory containing a CMake configuration file for bondcpp.
 bondcpp_DIR:PATH=/opt/ros/indigo/share/bondcpp/cmake
 
+//The directory containing a CMake configuration file for camera_info_manager.
+camera_info_manager_DIR:PATH=/opt/ros/indigo/share/camera_info_manager/cmake
+
+//Value Computed by CMake
+camera_umd_BINARY_DIR:STATIC=/home/joe/Documents/Indoor-3D-Reconstruction/ros/build/camera_umd/camera_umd
+
+//Value Computed by CMake
+camera_umd_SOURCE_DIR:STATIC=/home/joe/Documents/Indoor-3D-Reconstruction/ros/src/camera_umd/camera_umd
+
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/indigo/share/catkin/cmake
 
@@ -671,6 +683,12 @@ image_geometry_DIR:PATH=/opt/ros/indigo/share/image_geometry/cmake
 //The directory containing a CMake configuration file for image_transport.
 image_transport_DIR:PATH=/opt/ros/indigo/share/image_transport/cmake
 
+//Value Computed by CMake
+jpeg_streamer_BINARY_DIR:STATIC=/home/joe/Documents/Indoor-3D-Reconstruction/ros/build/camera_umd/jpeg_streamer
+
+//Value Computed by CMake
+jpeg_streamer_SOURCE_DIR:STATIC=/home/joe/Documents/Indoor-3D-Reconstruction/ros/src/camera_umd/jpeg_streamer
+
 //The directory containing a CMake configuration file for kdl_conversions.
 kdl_conversions_DIR:PATH=/opt/ros/indigo/share/kdl_conversions/cmake
 
@@ -685,6 +703,24 @@ libhaloc_DIR:PATH=/home/joe/Documents/Indoor-3D-Reconstruction/ros/devel/share/l
 
 //Value Computed by CMake
 libhaloc_SOURCE_DIR:STATIC=/home/joe/Documents/Indoor-3D-Reconstruction/ros/src/libhaloc
+
+//The directory containing a CMake configuration file for libuvc.
+libuvc_DIR:PATH=/usr/local/lib/cmake/libuvc
+
+//Value Computed by CMake
+libuvc_camera_BINARY_DIR:STATIC=/home/joe/Documents/Indoor-3D-Reconstruction/ros/build/libuvc_ros/libuvc_camera
+
+//Value Computed by CMake
+libuvc_camera_SOURCE_DIR:STATIC=/home/joe/Documents/Indoor-3D-Reconstruction/ros/src/libuvc_ros/libuvc_camera
+
+//Dependencies for the target
+libuvc_camera_nodelet_LIB_DEPENDS:STATIC=general;/usr/local/lib/libuvc.so;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/opt/ros/indigo/lib/libcamera_info_manager.so;general;/opt/ros/indigo/lib/libdynamic_reconfigure_config_init_mutex.so;general;/opt/ros/indigo/lib/libimage_transport.so;general;/opt/ros/indigo/lib/libmessage_filters.so;general;/opt/ros/indigo/lib/libnodeletlib.so;general;/opt/ros/indigo/lib/libbondcpp.so;general;/usr/lib/x86_64-linux-gnu/libuuid.so;general;/usr/lib/x86_64-linux-gnu/libtinyxml.so;general;/opt/ros/indigo/lib/libclass_loader.so;general;/usr/lib/libPocoFoundation.so;general;/usr/lib/x86_64-linux-gnu/libdl.so;general;/opt/ros/indigo/lib/libroslib.so;general;/opt/ros/indigo/lib/libroscpp.so;general;/usr/lib/x86_64-linux-gnu/libboost_signals.so;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;general;/opt/ros/indigo/lib/librosconsole.so;general;/opt/ros/indigo/lib/librosconsole_log4cxx.so;general;/opt/ros/indigo/lib/librosconsole_backend_interface.so;general;/usr/lib/liblog4cxx.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so;general;/opt/ros/indigo/lib/libxmlrpcpp.so;general;/opt/ros/indigo/lib/libroscpp_serialization.so;general;/opt/ros/indigo/lib/librostime.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/opt/ros/indigo/lib/libcpp_common.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so;
+
+//Value Computed by CMake
+libuvc_ros_BINARY_DIR:STATIC=/home/joe/Documents/Indoor-3D-Reconstruction/ros/build/libuvc_ros/libuvc_ros
+
+//Value Computed by CMake
+libuvc_ros_SOURCE_DIR:STATIC=/home/joe/Documents/Indoor-3D-Reconstruction/ros/src/libuvc_ros/libuvc_ros
 
 //Value Computed by CMake
 libviso2_BINARY_DIR:STATIC=/home/joe/Documents/Indoor-3D-Reconstruction/ros/build/viso2/libviso2
@@ -709,6 +745,9 @@ nav_msgs_DIR:PATH=/opt/ros/indigo/share/nav_msgs/cmake
 
 //The directory containing a CMake configuration file for nodelet.
 nodelet_DIR:PATH=/opt/ros/indigo/share/nodelet/cmake
+
+//Dependencies for the target
+nodelet_uvc_camera_LIB_DEPENDS:STATIC=general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;v4l2;general;/opt/ros/indigo/lib/libcamera_info_manager.so;general;/opt/ros/indigo/lib/libimage_transport.so;general;/opt/ros/indigo/lib/libmessage_filters.so;general;/opt/ros/indigo/lib/libnodeletlib.so;general;/opt/ros/indigo/lib/libbondcpp.so;general;/usr/lib/x86_64-linux-gnu/libuuid.so;general;/usr/lib/x86_64-linux-gnu/libtinyxml.so;general;/opt/ros/indigo/lib/libclass_loader.so;general;/usr/lib/libPocoFoundation.so;general;/usr/lib/x86_64-linux-gnu/libdl.so;general;/opt/ros/indigo/lib/libroslib.so;general;/opt/ros/indigo/lib/libroscpp.so;general;/usr/lib/x86_64-linux-gnu/libboost_signals.so;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;general;/opt/ros/indigo/lib/librosconsole.so;general;/opt/ros/indigo/lib/librosconsole_log4cxx.so;general;/opt/ros/indigo/lib/librosconsole_backend_interface.so;general;/usr/lib/liblog4cxx.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so;general;/opt/ros/indigo/lib/libxmlrpcpp.so;general;/opt/ros/indigo/lib/libroscpp_serialization.so;general;/opt/ros/indigo/lib/librostime.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/opt/ros/indigo/lib/libcpp_common.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so;
 
 //The directory containing a CMake configuration file for pcl_conversions.
 pcl_conversions_DIR:PATH=/opt/ros/indigo/share/pcl_conversions/cmake
@@ -804,6 +843,12 @@ tf_conversions_DIR:PATH=/opt/ros/indigo/share/tf_conversions/cmake
 topic_tools_DIR:PATH=/opt/ros/indigo/share/topic_tools/cmake
 
 //Value Computed by CMake
+uvc_camera_BINARY_DIR:STATIC=/home/joe/Documents/Indoor-3D-Reconstruction/ros/build/camera_umd/uvc_camera
+
+//Value Computed by CMake
+uvc_camera_SOURCE_DIR:STATIC=/home/joe/Documents/Indoor-3D-Reconstruction/ros/src/camera_umd/uvc_camera
+
+//Value Computed by CMake
 viso2_BINARY_DIR:STATIC=/home/joe/Documents/Indoor-3D-Reconstruction/ros/build/viso2/viso2
 
 //Dependencies for target
@@ -830,6 +875,8 @@ xmlrpcpp_DIR:PATH=/opt/ros/indigo/share/xmlrpcpp/cmake
 Boost_DATE_TIME_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_DATE_TIME_LIBRARY_RELEASE
 Boost_DATE_TIME_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_DIR
+Boost_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_FILESYSTEM_LIBRARY_DEBUG
 Boost_FILESYSTEM_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_FILESYSTEM_LIBRARY_RELEASE
@@ -955,7 +1002,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=8
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=13
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
