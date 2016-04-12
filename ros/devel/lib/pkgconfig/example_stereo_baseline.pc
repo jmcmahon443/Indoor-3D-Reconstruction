@@ -1,8 +1,0 @@
-prefix=/home/joe/Documents/Indoor-3D-Reconstruction/ros/devel
-
-Name: example_stereo_baseline
-Description: Description of example_stereo_baseline
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/joe/Documents/Indoor-3D-Reconstruction/ros/devel/lib 
-Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/joe/Documents/Indoor-3D-Reconstruction/ros/devel
+
+Name: libhaloc
+Description: Description of libhaloc
+Version: 0.0.1
+Cflags: -I/home/joe/Documents/Indoor-3D-Reconstruction/ros/src/libhaloc/include
+Libs: -L/home/joe/Documents/Indoor-3D-Reconstruction/ros/devel/lib -lhaloc
+Requires: 

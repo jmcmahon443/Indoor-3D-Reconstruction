@@ -263,21 +263,21 @@ _catkin_empty_exported_target: cmake_check_build_system
 
 # fast build rule for target.
 _catkin_empty_exported_target/fast:
-	$(MAKE) -f pcl/CMakeFiles/_catkin_empty_exported_target.dir/build.make pcl/CMakeFiles/_catkin_empty_exported_target.dir/build
+	$(MAKE) -f viso2/libviso2/CMakeFiles/_catkin_empty_exported_target.dir/build.make viso2/libviso2/CMakeFiles/_catkin_empty_exported_target.dir/build
 .PHONY : _catkin_empty_exported_target/fast
 
 #=============================================================================
-# Target rules for targets named example_stereo_baseline
+# Target rules for targets named viso2
 
 # Build rule for target.
-example_stereo_baseline: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 example_stereo_baseline
-.PHONY : example_stereo_baseline
+viso2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 viso2
+.PHONY : viso2
 
 # fast build rule for target.
-example_stereo_baseline/fast:
-	$(MAKE) -f pcl/CMakeFiles/example_stereo_baseline.dir/build.make pcl/CMakeFiles/example_stereo_baseline.dir/build
-.PHONY : example_stereo_baseline/fast
+viso2/fast:
+	$(MAKE) -f viso2/libviso2/CMakeFiles/viso2.dir/build.make viso2/libviso2/CMakeFiles/viso2.dir/build
+.PHONY : viso2/fast
 
 #=============================================================================
 # Target rules for targets named geometry_msgs_generate_messages_cpp
@@ -500,6 +500,721 @@ sub_1/fast:
 	$(MAKE) -f reconstruction/CMakeFiles/sub_1.dir/build.make reconstruction/CMakeFiles/sub_1.dir/build
 .PHONY : sub_1/fast
 
+#=============================================================================
+# Target rules for targets named actionlib_generate_messages_cpp
+
+# Build rule for target.
+actionlib_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 actionlib_generate_messages_cpp
+.PHONY : actionlib_generate_messages_cpp
+
+# fast build rule for target.
+actionlib_generate_messages_cpp/fast:
+	$(MAKE) -f libhaloc/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make libhaloc/CMakeFiles/actionlib_generate_messages_cpp.dir/build
+.PHONY : actionlib_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named actionlib_generate_messages_lisp
+
+# Build rule for target.
+actionlib_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 actionlib_generate_messages_lisp
+.PHONY : actionlib_generate_messages_lisp
+
+# fast build rule for target.
+actionlib_generate_messages_lisp/fast:
+	$(MAKE) -f libhaloc/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make libhaloc/CMakeFiles/actionlib_generate_messages_lisp.dir/build
+.PHONY : actionlib_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named actionlib_generate_messages_py
+
+# Build rule for target.
+actionlib_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 actionlib_generate_messages_py
+.PHONY : actionlib_generate_messages_py
+
+# fast build rule for target.
+actionlib_generate_messages_py/fast:
+	$(MAKE) -f libhaloc/CMakeFiles/actionlib_generate_messages_py.dir/build.make libhaloc/CMakeFiles/actionlib_generate_messages_py.dir/build
+.PHONY : actionlib_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named actionlib_msgs_generate_messages_cpp
+
+# Build rule for target.
+actionlib_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 actionlib_msgs_generate_messages_cpp
+.PHONY : actionlib_msgs_generate_messages_cpp
+
+# fast build rule for target.
+actionlib_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f libhaloc/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make libhaloc/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
+.PHONY : actionlib_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named actionlib_msgs_generate_messages_lisp
+
+# Build rule for target.
+actionlib_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 actionlib_msgs_generate_messages_lisp
+.PHONY : actionlib_msgs_generate_messages_lisp
+
+# fast build rule for target.
+actionlib_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f libhaloc/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make libhaloc/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
+.PHONY : actionlib_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named actionlib_msgs_generate_messages_py
+
+# Build rule for target.
+actionlib_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 actionlib_msgs_generate_messages_py
+.PHONY : actionlib_msgs_generate_messages_py
+
+# fast build rule for target.
+actionlib_msgs_generate_messages_py/fast:
+	$(MAKE) -f libhaloc/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make libhaloc/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
+.PHONY : actionlib_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named haloc
+
+# Build rule for target.
+haloc: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 haloc
+.PHONY : haloc
+
+# fast build rule for target.
+haloc/fast:
+	$(MAKE) -f libhaloc/CMakeFiles/haloc.dir/build.make libhaloc/CMakeFiles/haloc.dir/build
+.PHONY : haloc/fast
+
+#=============================================================================
+# Target rules for targets named tf2_msgs_generate_messages_cpp
+
+# Build rule for target.
+tf2_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tf2_msgs_generate_messages_cpp
+.PHONY : tf2_msgs_generate_messages_cpp
+
+# fast build rule for target.
+tf2_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f libhaloc/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make libhaloc/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
+.PHONY : tf2_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named tf2_msgs_generate_messages_lisp
+
+# Build rule for target.
+tf2_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tf2_msgs_generate_messages_lisp
+.PHONY : tf2_msgs_generate_messages_lisp
+
+# fast build rule for target.
+tf2_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f libhaloc/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make libhaloc/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
+.PHONY : tf2_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named tf2_msgs_generate_messages_py
+
+# Build rule for target.
+tf2_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tf2_msgs_generate_messages_py
+.PHONY : tf2_msgs_generate_messages_py
+
+# fast build rule for target.
+tf2_msgs_generate_messages_py/fast:
+	$(MAKE) -f libhaloc/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make libhaloc/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
+.PHONY : tf2_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named tf_generate_messages_cpp
+
+# Build rule for target.
+tf_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tf_generate_messages_cpp
+.PHONY : tf_generate_messages_cpp
+
+# fast build rule for target.
+tf_generate_messages_cpp/fast:
+	$(MAKE) -f libhaloc/CMakeFiles/tf_generate_messages_cpp.dir/build.make libhaloc/CMakeFiles/tf_generate_messages_cpp.dir/build
+.PHONY : tf_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named tf_generate_messages_lisp
+
+# Build rule for target.
+tf_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tf_generate_messages_lisp
+.PHONY : tf_generate_messages_lisp
+
+# fast build rule for target.
+tf_generate_messages_lisp/fast:
+	$(MAKE) -f libhaloc/CMakeFiles/tf_generate_messages_lisp.dir/build.make libhaloc/CMakeFiles/tf_generate_messages_lisp.dir/build
+.PHONY : tf_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named tf_generate_messages_py
+
+# Build rule for target.
+tf_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tf_generate_messages_py
+.PHONY : tf_generate_messages_py
+
+# fast build rule for target.
+tf_generate_messages_py/fast:
+	$(MAKE) -f libhaloc/CMakeFiles/tf_generate_messages_py.dir/build.make libhaloc/CMakeFiles/tf_generate_messages_py.dir/build
+.PHONY : tf_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named _stereo_slam_generate_messages_check_deps_GraphPoses
+
+# Build rule for target.
+_stereo_slam_generate_messages_check_deps_GraphPoses: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _stereo_slam_generate_messages_check_deps_GraphPoses
+.PHONY : _stereo_slam_generate_messages_check_deps_GraphPoses
+
+# fast build rule for target.
+_stereo_slam_generate_messages_check_deps_GraphPoses/fast:
+	$(MAKE) -f stereo_slam-indigo/CMakeFiles/_stereo_slam_generate_messages_check_deps_GraphPoses.dir/build.make stereo_slam-indigo/CMakeFiles/_stereo_slam_generate_messages_check_deps_GraphPoses.dir/build
+.PHONY : _stereo_slam_generate_messages_check_deps_GraphPoses/fast
+
+#=============================================================================
+# Target rules for targets named bond_generate_messages_cpp
+
+# Build rule for target.
+bond_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bond_generate_messages_cpp
+.PHONY : bond_generate_messages_cpp
+
+# fast build rule for target.
+bond_generate_messages_cpp/fast:
+	$(MAKE) -f stereo_slam-indigo/CMakeFiles/bond_generate_messages_cpp.dir/build.make stereo_slam-indigo/CMakeFiles/bond_generate_messages_cpp.dir/build
+.PHONY : bond_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named bond_generate_messages_lisp
+
+# Build rule for target.
+bond_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bond_generate_messages_lisp
+.PHONY : bond_generate_messages_lisp
+
+# fast build rule for target.
+bond_generate_messages_lisp/fast:
+	$(MAKE) -f stereo_slam-indigo/CMakeFiles/bond_generate_messages_lisp.dir/build.make stereo_slam-indigo/CMakeFiles/bond_generate_messages_lisp.dir/build
+.PHONY : bond_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named bond_generate_messages_py
+
+# Build rule for target.
+bond_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bond_generate_messages_py
+.PHONY : bond_generate_messages_py
+
+# fast build rule for target.
+bond_generate_messages_py/fast:
+	$(MAKE) -f stereo_slam-indigo/CMakeFiles/bond_generate_messages_py.dir/build.make stereo_slam-indigo/CMakeFiles/bond_generate_messages_py.dir/build
+.PHONY : bond_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named dynamic_reconfigure_gencfg
+
+# Build rule for target.
+dynamic_reconfigure_gencfg: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dynamic_reconfigure_gencfg
+.PHONY : dynamic_reconfigure_gencfg
+
+# fast build rule for target.
+dynamic_reconfigure_gencfg/fast:
+	$(MAKE) -f stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
+.PHONY : dynamic_reconfigure_gencfg/fast
+
+#=============================================================================
+# Target rules for targets named dynamic_reconfigure_generate_messages_cpp
+
+# Build rule for target.
+dynamic_reconfigure_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dynamic_reconfigure_generate_messages_cpp
+.PHONY : dynamic_reconfigure_generate_messages_cpp
+
+# fast build rule for target.
+dynamic_reconfigure_generate_messages_cpp/fast:
+	$(MAKE) -f stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
+.PHONY : dynamic_reconfigure_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named dynamic_reconfigure_generate_messages_lisp
+
+# Build rule for target.
+dynamic_reconfigure_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dynamic_reconfigure_generate_messages_lisp
+.PHONY : dynamic_reconfigure_generate_messages_lisp
+
+# fast build rule for target.
+dynamic_reconfigure_generate_messages_lisp/fast:
+	$(MAKE) -f stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
+.PHONY : dynamic_reconfigure_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named dynamic_reconfigure_generate_messages_py
+
+# Build rule for target.
+dynamic_reconfigure_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dynamic_reconfigure_generate_messages_py
+.PHONY : dynamic_reconfigure_generate_messages_py
+
+# fast build rule for target.
+dynamic_reconfigure_generate_messages_py/fast:
+	$(MAKE) -f stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make stereo_slam-indigo/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
+.PHONY : dynamic_reconfigure_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named localization
+
+# Build rule for target.
+localization: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 localization
+.PHONY : localization
+
+# fast build rule for target.
+localization/fast:
+	$(MAKE) -f stereo_slam-indigo/CMakeFiles/localization.dir/build.make stereo_slam-indigo/CMakeFiles/localization.dir/build
+.PHONY : localization/fast
+
+#=============================================================================
+# Target rules for targets named nav_msgs_generate_messages_cpp
+
+# Build rule for target.
+nav_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nav_msgs_generate_messages_cpp
+.PHONY : nav_msgs_generate_messages_cpp
+
+# fast build rule for target.
+nav_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f stereo_slam-indigo/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make stereo_slam-indigo/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build
+.PHONY : nav_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named nav_msgs_generate_messages_lisp
+
+# Build rule for target.
+nav_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nav_msgs_generate_messages_lisp
+.PHONY : nav_msgs_generate_messages_lisp
+
+# fast build rule for target.
+nav_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f stereo_slam-indigo/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make stereo_slam-indigo/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
+.PHONY : nav_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named nav_msgs_generate_messages_py
+
+# Build rule for target.
+nav_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nav_msgs_generate_messages_py
+.PHONY : nav_msgs_generate_messages_py
+
+# fast build rule for target.
+nav_msgs_generate_messages_py/fast:
+	$(MAKE) -f stereo_slam-indigo/CMakeFiles/nav_msgs_generate_messages_py.dir/build.make stereo_slam-indigo/CMakeFiles/nav_msgs_generate_messages_py.dir/build
+.PHONY : nav_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named nodelet_generate_messages_cpp
+
+# Build rule for target.
+nodelet_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nodelet_generate_messages_cpp
+.PHONY : nodelet_generate_messages_cpp
+
+# fast build rule for target.
+nodelet_generate_messages_cpp/fast:
+	$(MAKE) -f stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_cpp.dir/build.make stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_cpp.dir/build
+.PHONY : nodelet_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named nodelet_generate_messages_lisp
+
+# Build rule for target.
+nodelet_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nodelet_generate_messages_lisp
+.PHONY : nodelet_generate_messages_lisp
+
+# fast build rule for target.
+nodelet_generate_messages_lisp/fast:
+	$(MAKE) -f stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_lisp.dir/build
+.PHONY : nodelet_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named nodelet_generate_messages_py
+
+# Build rule for target.
+nodelet_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nodelet_generate_messages_py
+.PHONY : nodelet_generate_messages_py
+
+# fast build rule for target.
+nodelet_generate_messages_py/fast:
+	$(MAKE) -f stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_py.dir/build.make stereo_slam-indigo/CMakeFiles/nodelet_generate_messages_py.dir/build
+.PHONY : nodelet_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named pcl_msgs_generate_messages_cpp
+
+# Build rule for target.
+pcl_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pcl_msgs_generate_messages_cpp
+.PHONY : pcl_msgs_generate_messages_cpp
+
+# fast build rule for target.
+pcl_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f stereo_slam-indigo/CMakeFiles/pcl_msgs_generate_messages_cpp.dir/build.make stereo_slam-indigo/CMakeFiles/pcl_msgs_generate_messages_cpp.dir/build
+.PHONY : pcl_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named pcl_msgs_generate_messages_lisp
+
+# Build rule for target.
+pcl_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pcl_msgs_generate_messages_lisp
+.PHONY : pcl_msgs_generate_messages_lisp
+
+# fast build rule for target.
+pcl_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f stereo_slam-indigo/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/build.make stereo_slam-indigo/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/build
+.PHONY : pcl_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named pcl_msgs_generate_messages_py
+
+# Build rule for target.
+pcl_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pcl_msgs_generate_messages_py
+.PHONY : pcl_msgs_generate_messages_py
+
+# fast build rule for target.
+pcl_msgs_generate_messages_py/fast:
+	$(MAKE) -f stereo_slam-indigo/CMakeFiles/pcl_msgs_generate_messages_py.dir/build.make stereo_slam-indigo/CMakeFiles/pcl_msgs_generate_messages_py.dir/build
+.PHONY : pcl_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named pcl_ros_gencfg
+
+# Build rule for target.
+pcl_ros_gencfg: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pcl_ros_gencfg
+.PHONY : pcl_ros_gencfg
+
+# fast build rule for target.
+pcl_ros_gencfg/fast:
+	$(MAKE) -f stereo_slam-indigo/CMakeFiles/pcl_ros_gencfg.dir/build.make stereo_slam-indigo/CMakeFiles/pcl_ros_gencfg.dir/build
+.PHONY : pcl_ros_gencfg/fast
+
+#=============================================================================
+# Target rules for targets named std_srvs_generate_messages_cpp
+
+# Build rule for target.
+std_srvs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_cpp
+.PHONY : std_srvs_generate_messages_cpp
+
+# fast build rule for target.
+std_srvs_generate_messages_cpp/fast:
+	$(MAKE) -f stereo_slam-indigo/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make stereo_slam-indigo/CMakeFiles/std_srvs_generate_messages_cpp.dir/build
+.PHONY : std_srvs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named std_srvs_generate_messages_lisp
+
+# Build rule for target.
+std_srvs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_lisp
+.PHONY : std_srvs_generate_messages_lisp
+
+# fast build rule for target.
+std_srvs_generate_messages_lisp/fast:
+	$(MAKE) -f stereo_slam-indigo/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make stereo_slam-indigo/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
+.PHONY : std_srvs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named std_srvs_generate_messages_py
+
+# Build rule for target.
+std_srvs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_py
+.PHONY : std_srvs_generate_messages_py
+
+# fast build rule for target.
+std_srvs_generate_messages_py/fast:
+	$(MAKE) -f stereo_slam-indigo/CMakeFiles/std_srvs_generate_messages_py.dir/build.make stereo_slam-indigo/CMakeFiles/std_srvs_generate_messages_py.dir/build
+.PHONY : std_srvs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named stereo_slam_gencpp
+
+# Build rule for target.
+stereo_slam_gencpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stereo_slam_gencpp
+.PHONY : stereo_slam_gencpp
+
+# fast build rule for target.
+stereo_slam_gencpp/fast:
+	$(MAKE) -f stereo_slam-indigo/CMakeFiles/stereo_slam_gencpp.dir/build.make stereo_slam-indigo/CMakeFiles/stereo_slam_gencpp.dir/build
+.PHONY : stereo_slam_gencpp/fast
+
+#=============================================================================
+# Target rules for targets named stereo_slam_generate_messages
+
+# Build rule for target.
+stereo_slam_generate_messages: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stereo_slam_generate_messages
+.PHONY : stereo_slam_generate_messages
+
+# fast build rule for target.
+stereo_slam_generate_messages/fast:
+	$(MAKE) -f stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages.dir/build.make stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages.dir/build
+.PHONY : stereo_slam_generate_messages/fast
+
+#=============================================================================
+# Target rules for targets named stereo_slam_generate_messages_cpp
+
+# Build rule for target.
+stereo_slam_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stereo_slam_generate_messages_cpp
+.PHONY : stereo_slam_generate_messages_cpp
+
+# fast build rule for target.
+stereo_slam_generate_messages_cpp/fast:
+	$(MAKE) -f stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages_cpp.dir/build.make stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages_cpp.dir/build
+.PHONY : stereo_slam_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named stereo_slam_generate_messages_lisp
+
+# Build rule for target.
+stereo_slam_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stereo_slam_generate_messages_lisp
+.PHONY : stereo_slam_generate_messages_lisp
+
+# fast build rule for target.
+stereo_slam_generate_messages_lisp/fast:
+	$(MAKE) -f stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages_lisp.dir/build.make stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages_lisp.dir/build
+.PHONY : stereo_slam_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named stereo_slam_generate_messages_py
+
+# Build rule for target.
+stereo_slam_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stereo_slam_generate_messages_py
+.PHONY : stereo_slam_generate_messages_py
+
+# fast build rule for target.
+stereo_slam_generate_messages_py/fast:
+	$(MAKE) -f stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages_py.dir/build.make stereo_slam-indigo/CMakeFiles/stereo_slam_generate_messages_py.dir/build
+.PHONY : stereo_slam_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named stereo_slam_genlisp
+
+# Build rule for target.
+stereo_slam_genlisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stereo_slam_genlisp
+.PHONY : stereo_slam_genlisp
+
+# fast build rule for target.
+stereo_slam_genlisp/fast:
+	$(MAKE) -f stereo_slam-indigo/CMakeFiles/stereo_slam_genlisp.dir/build.make stereo_slam-indigo/CMakeFiles/stereo_slam_genlisp.dir/build
+.PHONY : stereo_slam_genlisp/fast
+
+#=============================================================================
+# Target rules for targets named stereo_slam_genpy
+
+# Build rule for target.
+stereo_slam_genpy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stereo_slam_genpy
+.PHONY : stereo_slam_genpy
+
+# fast build rule for target.
+stereo_slam_genpy/fast:
+	$(MAKE) -f stereo_slam-indigo/CMakeFiles/stereo_slam_genpy.dir/build.make stereo_slam-indigo/CMakeFiles/stereo_slam_genpy.dir/build
+.PHONY : stereo_slam_genpy/fast
+
+#=============================================================================
+# Target rules for targets named topic_tools_generate_messages_cpp
+
+# Build rule for target.
+topic_tools_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 topic_tools_generate_messages_cpp
+.PHONY : topic_tools_generate_messages_cpp
+
+# fast build rule for target.
+topic_tools_generate_messages_cpp/fast:
+	$(MAKE) -f stereo_slam-indigo/CMakeFiles/topic_tools_generate_messages_cpp.dir/build.make stereo_slam-indigo/CMakeFiles/topic_tools_generate_messages_cpp.dir/build
+.PHONY : topic_tools_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named topic_tools_generate_messages_lisp
+
+# Build rule for target.
+topic_tools_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 topic_tools_generate_messages_lisp
+.PHONY : topic_tools_generate_messages_lisp
+
+# fast build rule for target.
+topic_tools_generate_messages_lisp/fast:
+	$(MAKE) -f stereo_slam-indigo/CMakeFiles/topic_tools_generate_messages_lisp.dir/build.make stereo_slam-indigo/CMakeFiles/topic_tools_generate_messages_lisp.dir/build
+.PHONY : topic_tools_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named topic_tools_generate_messages_py
+
+# Build rule for target.
+topic_tools_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 topic_tools_generate_messages_py
+.PHONY : topic_tools_generate_messages_py
+
+# fast build rule for target.
+topic_tools_generate_messages_py/fast:
+	$(MAKE) -f stereo_slam-indigo/CMakeFiles/topic_tools_generate_messages_py.dir/build.make stereo_slam-indigo/CMakeFiles/topic_tools_generate_messages_py.dir/build
+.PHONY : topic_tools_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named _viso2_ros_generate_messages_check_deps_VisoInfo
+
+# Build rule for target.
+_viso2_ros_generate_messages_check_deps_VisoInfo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _viso2_ros_generate_messages_check_deps_VisoInfo
+.PHONY : _viso2_ros_generate_messages_check_deps_VisoInfo
+
+# fast build rule for target.
+_viso2_ros_generate_messages_check_deps_VisoInfo/fast:
+	$(MAKE) -f viso2/viso2_ros/CMakeFiles/_viso2_ros_generate_messages_check_deps_VisoInfo.dir/build.make viso2/viso2_ros/CMakeFiles/_viso2_ros_generate_messages_check_deps_VisoInfo.dir/build
+.PHONY : _viso2_ros_generate_messages_check_deps_VisoInfo/fast
+
+#=============================================================================
+# Target rules for targets named mono_odometer
+
+# Build rule for target.
+mono_odometer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mono_odometer
+.PHONY : mono_odometer
+
+# fast build rule for target.
+mono_odometer/fast:
+	$(MAKE) -f viso2/viso2_ros/CMakeFiles/mono_odometer.dir/build.make viso2/viso2_ros/CMakeFiles/mono_odometer.dir/build
+.PHONY : mono_odometer/fast
+
+#=============================================================================
+# Target rules for targets named stereo_odometer
+
+# Build rule for target.
+stereo_odometer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stereo_odometer
+.PHONY : stereo_odometer
+
+# fast build rule for target.
+stereo_odometer/fast:
+	$(MAKE) -f viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/build.make viso2/viso2_ros/CMakeFiles/stereo_odometer.dir/build
+.PHONY : stereo_odometer/fast
+
+#=============================================================================
+# Target rules for targets named viso2_ros_gencpp
+
+# Build rule for target.
+viso2_ros_gencpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 viso2_ros_gencpp
+.PHONY : viso2_ros_gencpp
+
+# fast build rule for target.
+viso2_ros_gencpp/fast:
+	$(MAKE) -f viso2/viso2_ros/CMakeFiles/viso2_ros_gencpp.dir/build.make viso2/viso2_ros/CMakeFiles/viso2_ros_gencpp.dir/build
+.PHONY : viso2_ros_gencpp/fast
+
+#=============================================================================
+# Target rules for targets named viso2_ros_generate_messages
+
+# Build rule for target.
+viso2_ros_generate_messages: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 viso2_ros_generate_messages
+.PHONY : viso2_ros_generate_messages
+
+# fast build rule for target.
+viso2_ros_generate_messages/fast:
+	$(MAKE) -f viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages.dir/build.make viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages.dir/build
+.PHONY : viso2_ros_generate_messages/fast
+
+#=============================================================================
+# Target rules for targets named viso2_ros_generate_messages_cpp
+
+# Build rule for target.
+viso2_ros_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 viso2_ros_generate_messages_cpp
+.PHONY : viso2_ros_generate_messages_cpp
+
+# fast build rule for target.
+viso2_ros_generate_messages_cpp/fast:
+	$(MAKE) -f viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages_cpp.dir/build.make viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages_cpp.dir/build
+.PHONY : viso2_ros_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named viso2_ros_generate_messages_lisp
+
+# Build rule for target.
+viso2_ros_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 viso2_ros_generate_messages_lisp
+.PHONY : viso2_ros_generate_messages_lisp
+
+# fast build rule for target.
+viso2_ros_generate_messages_lisp/fast:
+	$(MAKE) -f viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages_lisp.dir/build.make viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages_lisp.dir/build
+.PHONY : viso2_ros_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named viso2_ros_generate_messages_py
+
+# Build rule for target.
+viso2_ros_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 viso2_ros_generate_messages_py
+.PHONY : viso2_ros_generate_messages_py
+
+# fast build rule for target.
+viso2_ros_generate_messages_py/fast:
+	$(MAKE) -f viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages_py.dir/build.make viso2/viso2_ros/CMakeFiles/viso2_ros_generate_messages_py.dir/build
+.PHONY : viso2_ros_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named viso2_ros_genlisp
+
+# Build rule for target.
+viso2_ros_genlisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 viso2_ros_genlisp
+.PHONY : viso2_ros_genlisp
+
+# fast build rule for target.
+viso2_ros_genlisp/fast:
+	$(MAKE) -f viso2/viso2_ros/CMakeFiles/viso2_ros_genlisp.dir/build.make viso2/viso2_ros/CMakeFiles/viso2_ros_genlisp.dir/build
+.PHONY : viso2_ros_genlisp/fast
+
+#=============================================================================
+# Target rules for targets named viso2_ros_genpy
+
+# Build rule for target.
+viso2_ros_genpy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 viso2_ros_genpy
+.PHONY : viso2_ros_genpy
+
+# fast build rule for target.
+viso2_ros_genpy/fast:
+	$(MAKE) -f viso2/viso2_ros/CMakeFiles/viso2_ros_genpy.dir/build.make viso2/viso2_ros/CMakeFiles/viso2_ros_genpy.dir/build
+.PHONY : viso2_ros_genpy/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -522,7 +1237,7 @@ help:
 	@echo "... gtest"
 	@echo "... gtest_main"
 	@echo "... _catkin_empty_exported_target"
-	@echo "... example_stereo_baseline"
+	@echo "... viso2"
 	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... geometry_msgs_generate_messages_lisp"
 	@echo "... geometry_msgs_generate_messages_py"
@@ -540,6 +1255,61 @@ help:
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... sub_1"
+	@echo "... actionlib_generate_messages_cpp"
+	@echo "... actionlib_generate_messages_lisp"
+	@echo "... actionlib_generate_messages_py"
+	@echo "... actionlib_msgs_generate_messages_cpp"
+	@echo "... actionlib_msgs_generate_messages_lisp"
+	@echo "... actionlib_msgs_generate_messages_py"
+	@echo "... haloc"
+	@echo "... tf2_msgs_generate_messages_cpp"
+	@echo "... tf2_msgs_generate_messages_lisp"
+	@echo "... tf2_msgs_generate_messages_py"
+	@echo "... tf_generate_messages_cpp"
+	@echo "... tf_generate_messages_lisp"
+	@echo "... tf_generate_messages_py"
+	@echo "... _stereo_slam_generate_messages_check_deps_GraphPoses"
+	@echo "... bond_generate_messages_cpp"
+	@echo "... bond_generate_messages_lisp"
+	@echo "... bond_generate_messages_py"
+	@echo "... dynamic_reconfigure_gencfg"
+	@echo "... dynamic_reconfigure_generate_messages_cpp"
+	@echo "... dynamic_reconfigure_generate_messages_lisp"
+	@echo "... dynamic_reconfigure_generate_messages_py"
+	@echo "... localization"
+	@echo "... nav_msgs_generate_messages_cpp"
+	@echo "... nav_msgs_generate_messages_lisp"
+	@echo "... nav_msgs_generate_messages_py"
+	@echo "... nodelet_generate_messages_cpp"
+	@echo "... nodelet_generate_messages_lisp"
+	@echo "... nodelet_generate_messages_py"
+	@echo "... pcl_msgs_generate_messages_cpp"
+	@echo "... pcl_msgs_generate_messages_lisp"
+	@echo "... pcl_msgs_generate_messages_py"
+	@echo "... pcl_ros_gencfg"
+	@echo "... std_srvs_generate_messages_cpp"
+	@echo "... std_srvs_generate_messages_lisp"
+	@echo "... std_srvs_generate_messages_py"
+	@echo "... stereo_slam_gencpp"
+	@echo "... stereo_slam_generate_messages"
+	@echo "... stereo_slam_generate_messages_cpp"
+	@echo "... stereo_slam_generate_messages_lisp"
+	@echo "... stereo_slam_generate_messages_py"
+	@echo "... stereo_slam_genlisp"
+	@echo "... stereo_slam_genpy"
+	@echo "... topic_tools_generate_messages_cpp"
+	@echo "... topic_tools_generate_messages_lisp"
+	@echo "... topic_tools_generate_messages_py"
+	@echo "... _viso2_ros_generate_messages_check_deps_VisoInfo"
+	@echo "... mono_odometer"
+	@echo "... stereo_odometer"
+	@echo "... viso2_ros_gencpp"
+	@echo "... viso2_ros_generate_messages"
+	@echo "... viso2_ros_generate_messages_cpp"
+	@echo "... viso2_ros_generate_messages_lisp"
+	@echo "... viso2_ros_generate_messages_py"
+	@echo "... viso2_ros_genlisp"
+	@echo "... viso2_ros_genpy"
 .PHONY : help
 
 

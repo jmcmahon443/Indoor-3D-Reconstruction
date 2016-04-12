@@ -1,0 +1,8 @@
+prefix=/home/joe/Documents/Indoor-3D-Reconstruction/ros/install
+
+Name: stereo_slam
+Description: Description of stereo_slam
+Version: 0.0.1
+Cflags: -I/home/joe/Documents/Indoor-3D-Reconstruction/ros/install/include
+Libs: -L/home/joe/Documents/Indoor-3D-Reconstruction/ros/install/lib 
+Requires: message_runtime

@@ -1,0 +1,8 @@
+prefix=/home/joe/Documents/Indoor-3D-Reconstruction/ros/devel
+
+Name: viso2_ros
+Description: Description of viso2_ros
+Version: 0.0.1
+Cflags: -I/home/joe/Documents/Indoor-3D-Reconstruction/ros/devel/include
+Libs: -L/home/joe/Documents/Indoor-3D-Reconstruction/ros/devel/lib 
+Requires: 

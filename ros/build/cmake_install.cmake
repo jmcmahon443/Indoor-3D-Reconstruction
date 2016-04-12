@@ -117,8 +117,12 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unsp
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   INCLUDE("/home/joe/Documents/Indoor-3D-Reconstruction/ros/build/gtest/cmake_install.cmake")
-  INCLUDE("/home/joe/Documents/Indoor-3D-Reconstruction/ros/build/pcl/cmake_install.cmake")
+  INCLUDE("/home/joe/Documents/Indoor-3D-Reconstruction/ros/build/viso2/libviso2/cmake_install.cmake")
+  INCLUDE("/home/joe/Documents/Indoor-3D-Reconstruction/ros/build/viso2/viso2/cmake_install.cmake")
   INCLUDE("/home/joe/Documents/Indoor-3D-Reconstruction/ros/build/reconstruction/cmake_install.cmake")
+  INCLUDE("/home/joe/Documents/Indoor-3D-Reconstruction/ros/build/libhaloc/cmake_install.cmake")
+  INCLUDE("/home/joe/Documents/Indoor-3D-Reconstruction/ros/build/stereo_slam-indigo/cmake_install.cmake")
+  INCLUDE("/home/joe/Documents/Indoor-3D-Reconstruction/ros/build/viso2/viso2_ros/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

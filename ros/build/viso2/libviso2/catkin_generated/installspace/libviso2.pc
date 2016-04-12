@@ -1,0 +1,8 @@
+prefix=/home/joe/Documents/Indoor-3D-Reconstruction/ros/install
+
+Name: libviso2
+Description: Description of libviso2
+Version: 0.0.1
+Cflags: -I/home/joe/Documents/Indoor-3D-Reconstruction/ros/install/include
+Libs: -L/home/joe/Documents/Indoor-3D-Reconstruction/ros/install/lib -lviso2
+Requires: 

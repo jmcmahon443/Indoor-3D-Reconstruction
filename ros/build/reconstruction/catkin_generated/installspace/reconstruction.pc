@@ -1,8 +1,0 @@
-prefix=/home/joe/Documents/Indoor-3D-Reconstruction/ros/install
-
-Name: reconstruction
-Description: Description of reconstruction
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/joe/Documents/Indoor-3D-Reconstruction/ros/install/lib 
-Requires: 
